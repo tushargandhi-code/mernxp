@@ -12,7 +12,7 @@ const Footer = () => {
         
         <span className="ml-3 text-white font-bold text-5xl">mensxp</span>
       </a>
-      <p className="mt-2 ml-3 text-white text-2xl">India's Largest Men's Lifestyle Destination</p>
+      <p className="mt-2 ml-3 text-white text-2xl">Indias Largest Mens Lifestyle Destination</p>
     </div>
     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 pt-8 md:mt-0 mt-10 md:text-left text-center">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">

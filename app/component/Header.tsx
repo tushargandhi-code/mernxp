@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -14,7 +14,7 @@ const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
-  const handleSearch = (e) => {
+  const handleSearch = (e:React.SyntheticEvent) => {
     e.preventDefault();
     console.log("Searching for:", searchQuery);
   };

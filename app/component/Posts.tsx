@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Posts = ({pimg , pheading , pcontent1 , pcontent2 , pcontent3}
      : {pimg:string , pheading:string , pcontent1:string , pcontent2:string , pcontent3:string}) => {
@@ -6,7 +7,7 @@ const Posts = ({pimg , pheading , pcontent1 , pcontent2 , pcontent3}
     
       <div className="xl:w-1/4 ml-10 flex -mr-28   justify-center  md:w-1/2 p-4">
     <div className="p-6  rounded-lg">
-      <img
+      <Image
         src={pimg}
         className="content"
         width="260"

@@ -37,7 +37,7 @@ const DMCA = () => {
             <input type="email" placeholder="Your Email" className="w-full p-2 border border-gray-300 rounded" required />
             <input type="text" placeholder="Copyrighted Work (Description)" className="w-full p-2 border border-gray-300 rounded" required />
             <input type="url" placeholder="URL of Infringing Content" className="w-full p-2 border border-gray-300 rounded" required />
-            <textarea placeholder="Additional Details" className="w-full p-2 border border-gray-300 rounded" rows="4"></textarea>
+            <textarea placeholder="Additional Details" className="w-full p-2 border border-gray-300 rounded" ></textarea>
             <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Submit Complaint</button>
           </form>
         </div>

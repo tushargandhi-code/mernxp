@@ -14,7 +14,7 @@ const page = () => {
       
       <Header/>
 
-      <p className='text-white tracking-widest mt-20 text-center p-2 bg-sky-300'>INDIA'S LARGEST MEN'S LIFESTYLE DESTINATION</p>
+      <p className='text-white tracking-widest mt-20 text-center p-2 bg-sky-300'>INDIAS LARGEST MENS LIFESTYLE DESTINATION</p>
 
 <main >
   <Slider/>

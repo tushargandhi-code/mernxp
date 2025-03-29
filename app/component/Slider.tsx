@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
+import Image from 'next/image';
 
 const Slider = () => {
     const slides = [
@@ -40,7 +41,7 @@ const Slider = () => {
                 {slides.map((slide, index) => (
                     <SwiperSlide key={index} className="relative">
                         <div className="relative h-full w-full">
-                            <img
+                            <Image
                                 src={slide.image}
                                 alt={slide.title}
                                 className="w-full h-full object-cover"

@@ -51,7 +51,7 @@ const Privacy = () => {
         We implement robust security measures to protect your data from unauthorized access, alteration, or disclosure. However, no method of transmission over the internet is 100% secure, and we encourage users to take precautions while sharing personal information online.
     </p>
 
-    <h3 className='text-xl'> className='text-3xl font-bold mt-2'5. Your Rights and Choices</h3>
+    <h3 className='text-xl'> Your Rights and Choices</h3>
     <p className='text-xl'>
         You have the right to access, update, or delete your personal information. You can also opt out of marketing communications at any time. To exercise these rights, please contact our support team.
     </p>

@@ -1,6 +1,7 @@
 "use client"
 
 import React from 'react'
+import Image from 'next/image';
 
 const Blogs = ({
   title,
@@ -33,7 +34,7 @@ const Blogs = ({
       <section className='text-gray-600 body-font overflow-hidden mt-10'>
         <div className='container mx-auto px-4 md:px-8 lg:px-16 xl:px-24 py-12'>
           <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8'>
-            <img 
+            <Image 
               alt='blog image' 
               className='w-full lg:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow-lg'
               src={mainimg} 
