@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
 import Blogs from '../component/Blogs'
-import Posts from '../component/Posts'
+
 import Image from 'next/image'
 
 const Sports = () => {
@@ -26,23 +26,7 @@ const Sports = () => {
 
 <div className="flex flex-wrap mr-32 -mt-16  justify-center gap-x-4">
  
- <Posts pimg='https://img.mensxp.com/media/content/2025/Mar/header_67e640d6e98b1.jpeg?w=325&h=483&cc=1'
- pheading='CRICKET'  pcontent1='IPL 2025: Who Is ' pcontent2='Prince Yadav? Bowler'
-  pcontent3='with 1 First-Class Scalp'/>
-
-
-<Posts pimg='https://img.mensxp.com/media/content/2023/Dec/intro_658037246b75e.jpeg?w=325&h=483&cc=1'
- pheading='CRICKET'  pcontent1='Who Is Captain' pcontent2='Cool MS Dhonis'
-  pcontent3='Only International Wicket'/>
-
-
-<Posts pimg='https://img.mensxp.com/media/content/2024/Feb/1_65e057195c2a8.jpeg?w=325&h=483&cc=1'
- pheading=' CRICKET'  pcontent1='IPL: THIS Bowler' pcontent2='Got A Wicket With What'
-  pcontent3='Was His 1st & Last Ball'/>
-
-<Posts pimg='https://img.mensxp.com/media/content/2024/Apr/Cricket-Stadium_66272eafa9975.jpeg?w=325&h=483&cc=1'
- pheading='CRICKET'  pcontent1='Triple Happiness! 3 ' pcontent2='Batters Who Converted'
-  pcontent3='1st Test 100s Into 300s'/>
+ 
 
  
 </div>

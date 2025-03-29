@@ -4,6 +4,7 @@ import Footer from '../component/Footer'
 import Blogs from '../component/Blogs'
 import Posts from '../component/Posts'
 import Image from 'next/image'
+import fashion from '@/constants/fashion'
 
 const Fashion = () => {
   return (
@@ -30,23 +31,12 @@ const Fashion = () => {
 
 <div className="flex flex-wrap mr-32 -mt-16  justify-center gap-x-4">
 
-  <Posts pimg='https://img.mensxp.com/media/content/2025/Mar/Image-Header-Template-11-44_67da8e21c8cc9.jpeg?w=325&amp;h=483&amp;cc=1'
-  pheading='FASHION TIPS & ADVICE'  pcontent1='Bling, Pearls & Scarves:' pcontent2='‘Women’s’ Accessories'
-   pcontent3=' Better then Men'/>
+{fashion.slice(0, 4).map((post , index)=>(
 
+<Posts key = {index} pimg={`/images/${post.imgUrl}`}
+pheading={post.title}  pcontent={post.contents} />
 
-<Posts pimg='https://img.mensxp.com/media/content/2025/Mar/Image-Header-Template-11-46_67e24ab5a3c15.jpeg?w=325&h=483&cc=1'
-  pheading='FASHION TIPS & ADVICE'  pcontent1='Corp-Core, But Make It Cool:' pcontent2='How Men Are'
-   pcontent3='Redefining Workwear'/>
-
-
-<Posts pimg='https://img.mensxp.com/media/content/2025/Mar/Header_67d2df02d092a.jpeg?w=325&h=483&cc=1'
-  pheading='CELEBRITY STYLE'  pcontent1='From Shah Rukh Khan To Hardik ' pcontent2='Pandya—This Week’s'
-   pcontent3='Most Stylish Men'/>
-
-<Posts pimg='https://img.mensxp.com/media/content/2025/Mar/Image-Header-Template-11-1_67d119497275b.jpeg?w=325&h=483&cc=1'
-  pheading='CELEBRITY STYLE'  pcontent1='What To Wear This Holi Ft.' pcontent2='The Gen Z Boys'
-   pcontent3=''/>
+))}
  
 </div>
     </div>
