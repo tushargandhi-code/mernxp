@@ -44,6 +44,8 @@ const Slider = () => {
                             <Image
                                 src={slide.image}
                                 alt={slide.title}
+                                width={100}
+                                height={100}
                                 className="w-full h-full object-cover"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center items-center text-white font-bold p-4 bg-black/40">

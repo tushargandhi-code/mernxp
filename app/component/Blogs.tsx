@@ -37,6 +37,8 @@ const Blogs = ({
             <Image 
               alt='blog image' 
               className='w-full lg:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow-lg'
+              width={100}
+              height={100}
               src={mainimg} 
             />
             

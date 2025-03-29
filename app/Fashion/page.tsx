@@ -20,7 +20,10 @@ const Fashion = () => {
         redefining how we approach everyday wear. Whether its bold statement pieces or minimalist elegance, 
         fashion remains a powerful form of self-expression. Fashion is a dynamic and ever-evolving form of self-expression that reflects culture, individuality, and creativity. It blends tradition with modern trends, shaping the way people present themselves to the world. From haute couture to street style, fashion encompasses a wide range of styles, fabrics, and designs that cater to diverse tastes. In recent years, sustainability has become a key focus, with eco-friendly materials and ethical production gaining importance. Whether it’s bold statement pieces, timeless classics, or minimalist aesthetics, fashion continues to inspire and empower individuals, allowing them to showcase their personality and confidence through clothing and accessories.</p>
         
-        <Image alt='hi' className='w-full  mt-3' src='https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?cs=srgb&dl=pexels-pixabay-325876.jpg&fm=jpg'/>
+        <Image alt='hi'
+        width={100}
+        height={100}
+         className='w-full  mt-3' src='https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?cs=srgb&dl=pexels-pixabay-325876.jpg&fm=jpg'/>
         <Blogs title = "FASHION" mainimg='https://img.mensxp.com/media/content/2025/Mar/Image-Header-Template-11_67dbf7cab0cbf.jpeg?w=1100&h=513&cc=1'
  maintitle='CELEBRITY STYLE' maincontent='From Vedang Raina To Ali Fazal—This Week’s Most Stylish Men' author='Moksha Shivlani'
  days='5 days ago'/>
