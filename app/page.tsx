@@ -40,11 +40,11 @@ const page = () => {
 
  
 <Link href="/post/Must-Have-Basics-Every-Woman-Needs-in-Her-Closet">
-<Blogs title = "Politics" mainimg='/articles/Blogheraid41.jpg'
+<Blogs title = "politics" mainimg='/articles/Blogheraid41.jpg'
  maintitle='POLITICS' maincontent='Must-Have Basics Every Woman Needs in Her Closet' maindesc='Building a versatile wardrobe starts
   with timeless basics that serve as the foundation for any outfit.These essential pieces ensure that you always have something stylish and functional to wear, no 
   matter  the occasion is. ' author='Rahul Sharma'
- days='2 weeks ago' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
+ days='' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
  </Link>
 
 <div className='bg-gray-200'>
@@ -64,10 +64,10 @@ const page = () => {
 </div>
 
 <Link href="/post/The-Importance-of-Self-Care-Why-Taking-Time-for-Yourself-Matters">
-<Blogs title = "MONEY" mainimg='/articles/Blogheraid26.jpg'
+<Blogs title = "money" mainimg='/articles/Blogheraid26.jpg'
  maintitle='MONEY' maincontent='The Importance of Self-Care: Why Taking Time for Yourself Matters'
  maindesc='Self-care is more than just a buzzword—its an essential aspect of maintaining physical, mental and emotional life being.' author='Darshan Yewalekar'
- days='21 hours ago' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
+ days='' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
  </Link>
 
 <div className='bg-gray-200'>
@@ -87,10 +87,10 @@ const page = () => {
 </div>
 
 <Link href="/post/Mental-Health-and-Self-Care-How-to-Reduce-Stress-and-Anxiety">
-<Blogs title = "USNEWS" mainimg='/articles/Blogheraid29.jpg'
+<Blogs title = "usnews" mainimg='/articles/Blogheraid29.jpg'
  maintitle='US RELATED NEWS' maincontent='Mental Health and Self-Care: How to Reduce Stress and Anxiety'
  maindesc='Stress and anxiety have become common issues in modern life, affecting both mental and physical life being.' author='James Carter'
- days='2 weeks ago' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
+ days='' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
  </Link>
 
 <div className='bg-gray-200'>
@@ -110,10 +110,10 @@ const page = () => {
 </div>
 
 <Link href="/post/How-to-Start-a-Profitable-Side-Hustle-While-Working-Full-Time">
-<Blogs title = "Entertain" mainimg="/articles/Blogheraid2.jpg"
+<Blogs title = "entertainment" mainimg="/articles/Blogheraid2.jpg"
  maintitle='ENTERTAINMENT' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
  maindesc='Starting a side hustle while working full-time can be a great way to increase your income, build new skills, and create financial security.' author='Rajat Sen'
- days='5 days ago' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
+ days='' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
  </Link>
 
 <div className='bg-gray-200'>
@@ -131,6 +131,8 @@ const page = () => {
   ))}
 </div>
 </div>
+
+<div className='h-20 bg-gray-200'></div>
 
 <Footer/>
 

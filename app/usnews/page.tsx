@@ -17,20 +17,17 @@ const Usnews = () => {
     <div className='mt-20 pt-8 text-black text-center mx-5 flex flex-col justify-center'>
 
         
-        <h1 className='text-7xl mt-10 text-left'>US-NEWS</h1>
-        <p className = 'text-2xl  tracking-wider text-left mt-2'>U.S. News & World Report is a multifaceted digital media company dedicated to helping consumers, business leaders and policy officials make important decisions in their lives. We use world-class data and technology to publish independent reporting, rankings, journalism and advice that has earned the trust of our readers and users for more than 90 years.</p>
         
-        <Image alt='hi'
-        width={100}
-        height={100}
-         className='w-full  mt-3' src='https://c4.wallpaperflare.com/wallpaper/472/328/42/sport-athlete-1920x1080-wallpaper-preview.jpg'/>
+        <p className = 'text-2xl  max-w-6xl mx-auto mt-2'>U.S. News & World Report is a multifaceted digital media company dedicated to helping consumers, business leaders and policy officials make important decisions in their lives. We use world-class data and technology to publish independent reporting, rankings, journalism and advice that has earned the trust of our readers and users for more than 90 years.</p>
+        
+        
         
         <Link href="/post/Mental-Health-and-Self-Care-How-to-Reduce-Stress-and-Anxiety">
          <div className='text-left'>
         <Blogs title = "USNEWS" mainimg='/articles/Blogheraid29.jpg'
          maintitle='US RELATED NEWS' maincontent='Mental Health and Self-Care: How to Reduce Stress and Anxiety'
          maindesc='Stress and anxiety have become common issues in modern life, affecting both mental and physical life being.' author='James Carter'
-         days='2 weeks ago' buttontext='' buttoncolor='' buttonhovercolor=''/>
+         days='' buttontext='' buttoncolor='' buttonhovercolor=''/>
          </div>
          </Link>
 
@@ -52,8 +49,11 @@ const Usnews = () => {
 </div>
 
     </div>
-    <Footer/>
 
+    <div className='h-20 bg-gray-200'></div>
+
+    <Footer/>
+    
     </div>
     </>
   )

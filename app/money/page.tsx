@@ -17,20 +17,17 @@ const Money = () => {
     <div className='mt-20 pt-8 text-black text-center mx-5 flex flex-col justify-center'>
 
         
-        <h1 className='text-7xl mt-10 text-left'>MONEY</h1>
-        <p className = 'text-2xl tracking-wider text-left mt-2'>Money is the medium used by people to buy required goods and services. It is used as the source to fulfill basic needs and is also a source of comfort in life. Money is the most important source to live a healthy and prosperous life; however, it cannot be compared with the significance of love and care. Both have their own importance and benefits. Nevertheless, money is a useful and necessary commodity to live</p>
         
-        <Image alt='hi'
-        width={100}
-        height={100}
-         className='w-full  mt-3' src='https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhbHRofGVufDB8fDB8fHww'/>
+        <p className = 'text-2xl t max-w-6xl mx-auto mt-2'>Money is the medium used by people to buy required goods and services. It is used as the source to fulfill basic needs and is also a source of comfort in life. Money is the most important source to live a healthy and prosperous life; however, it cannot be compared with the significance of love and care. Both have their own importance and benefits. Nevertheless, money is a useful and necessary commodity to live</p>
+        
+        
         
         <Link href="/post/The-Importance-of-Self-Care-Why-Taking-Time-for-Yourself-Matters">
 <div className='text-left'>
-<Blogs title = "MONEY" mainimg='/articles/Blogheraid26.jpg'
+<Blogs title = "money" mainimg='/articles/Blogheraid26.jpg'
  maintitle='MAKE MONEY' maincontent='The Importance of Self-Care: Why Taking Time for Yourself Matters'
  maindesc='Self-care is more than just a buzzword—its an essential aspect of maintaining physical, mental and emotional life being.' author='Darshan Yewalekar'
- days='21 hours ago' buttontext='' buttoncolor='' buttonhovercolor=''/>
+ days='' buttontext='' buttoncolor='' buttonhovercolor=''/>
  </div>
  </Link>
 
@@ -51,6 +48,7 @@ const Money = () => {
 </div>
 
     </div>
+    <div className='h-20 bg-gray-200'></div>
     <Footer/>
 
     </div>

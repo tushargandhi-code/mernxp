@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image';
-
+import Link from 'next/link';
 
 const Blogs = ({
   title,
@@ -31,13 +31,16 @@ const Blogs = ({
     <div className='pt-20 px-4 bg-gray-200 md:px-8 lg:px-16 xl:px-24'>
       {/* Title and Button */}
       <div className='flex flex-col md:flex-row  justify-around items-center'>
-        
+        <Link href={title}>
         <span className='uppercase mr-61  md:text-5xl hover:underline cursor-pointer text-black font-bold'>
           {title}
         </span>
+        </Link>
+        <Link href={title}>
         <button className={`mt-4 md:mt-0 px-6 lg:ml-96 py-2 ${buttoncolor} text-white rounded-lg transition duration-300 ${buttonhovercolor}`}>
           {buttontext}
         </button>
+        </Link>
         
       </div>
 
@@ -48,8 +51,8 @@ const Blogs = ({
             <Image 
               alt='blog image' 
               className='w-full lg:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow-lg'
-              width={100}
-              height={100}
+              width={1000}
+              height={1000}
               src={mainimg} 
             />
             

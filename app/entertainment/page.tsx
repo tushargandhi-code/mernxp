@@ -17,20 +17,16 @@ const Entertainment = () => {
     <div className='mt-20 pt-8 text-black text-center mx-5 flex flex-col justify-center'>
 
         
-        <h1 className='text-7xl mt-10 text-left '>ENTERTAINMENT</h1>
-        <p className = 'text-2xl tracking-wider text-left mt-2'>Entertainment is an ever-evolving expression of style, blending tradition with modern influences. 
+        <p className = 'text-2xl max-w-6xl mx-auto mt-2'>Entertainment is an ever-evolving expression of style, blending tradition with modern influences. 
         In 2025, sustainable fashion takes center stage, with eco-friendly materials and ethical production practices 
         becoming essential in the industry. Vibrant colors, oversized silhouettes, and vintage revivals are making a comeback, 
         redefining how we approach everyday wear. </p>
         
-        <Image alt='hi'
-        width={100}
-        height={100}
-        className='w-screen h-screen  mt-3' src='https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?cs=srgb&dl=pexels-pixabay-325876.jpg&fm=jpg'/>
+        
   
   <Link href="/post/How-to-Start-a-Profitable-Side-Hustle-While-Working-Full-Time">     
   <div className='text-left'>
-  <Blogs title = "Entertain" mainimg="/articles/Blogheraid2.jpg"
+  <Blogs title = "Entertainment" mainimg="/articles/Blogheraid2.jpg"
 
  maintitle='CELEBRITY STYLE' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
  maindesc='Starting a side hustle while working full-time can be a great way to increase your income, build new skills, and create financial security.' author='Rajat Sen'
@@ -57,6 +53,7 @@ const Entertainment = () => {
 </div>
 
     </div>
+    <div className='h-20 bg-gray-200'></div>
     <Footer/>
 
     </div>

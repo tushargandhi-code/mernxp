@@ -32,7 +32,7 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading }) => {
           <h4 className="mt-3 text-xl text-left text-black w-[260px] p-2 font-bold title-font mb-4">
             {pheading}
           </h4>
-          <p className="text-gray-500 text-sm p-2">Date: {formattedDate}</p>
+          <p className="text-gray-500 text-left text-sm p-2">Date: {formattedDate}</p>
         </div>
       </div>
     </div>

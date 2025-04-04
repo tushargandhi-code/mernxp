@@ -8,21 +8,21 @@ import Link from 'next/link';
 
 const slides = [
     {
-        image: '/articles/Blogheraid6.jpg',
+        image: '/articles/Blogheraid1.jpg',
         title: 'How to Market Your Side Hustle and Attract More Customers',
         content: 'Starting a side hustle is just the beginning;',
         content2: 'marketing it effectively',
         
     },
     {
-        image: 'https://img.mensxp.com/media/content/2025/Mar/Image-Header-Template-11_67e0ca6aa5cea.jpeg?w=1100&h=513&cc=1',
-        title: 'Relationship Tips & Advice',
+        image: '/articles/Blogheraid4.jpg',
+        title: 'Turning Your Hobby into a Side Hustle: A Step-by-Step Guide',
         content: 'Sleep Divorce: Why Couples Are Breaking Up',
         content2: 'at Bedtime So They Don’t Break Up for Real',
     },
     {
-        image: 'https://img.mensxp.com/media/content/2025/Mar/Image-Header-Template-11_67dbf7cab0cbf.jpeg?w=1100&h=513&cc=1',
-        title: 'Celebrity Style',
+        image: '/articles/Blogheraid7.jpg',
+        title: 'The Most Lucrative Side Hustles with Low Startup Costs',
         content: 'From Vedang Raina To Ali Fazal—',
         content2: 'This Week’s Most Stylish Men',
     },
@@ -44,21 +44,23 @@ const Slider = () => {
                     <SwiperSlide key={index} className="relative">
                         <div className="relative h-full w-full">
                             {index === 0 ? (
-                                <Link href='/privacy'>
+                                <Link href='/privacy' passHref>
+                                    <div className="relative w-full h-full cursor-pointer">
                                     <Image
                                         src={slide.image}
                                         alt={slide.title}
-                                        width={100}
-                                        height={100}
+                                        width={1920}
+                                        height={1080}
                                         className="w-full h-full object-cover cursor-pointer"
                                     />
+                                    </div>
                                 </Link>
                             ) : (
                                 <Image
                                     src={slide.image}
                                     alt={slide.title}
-                                    width={100}
-                                    height={100}
+                                    width={1920}
+                                    height={1080}
                                     className="w-full h-full object-cover"
                                 />
                             )}

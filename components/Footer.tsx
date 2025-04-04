@@ -30,6 +30,10 @@ const Footer = () => {
           <li>
           <Link href='/money' className="text-white text-md  hover:underline hover:cursor-pointer">Money</Link>
           </li>
+          <li>
+          <Link href='/money' className="text-white text-md  hover:underline hover:cursor-pointer">Us news</Link>
+          </li>
+          
           
         </nav>
       </div>

@@ -17,13 +17,10 @@ const Politics = () => {
     <div className='mt-20 pt-8 text-black text-center mx-5 flex flex-col justify-center'>
 
         
-        <h1 className='text-7xl mt-10 text-left'>POLITICS</h1>
-        <p className = 'text-2xl  tracking-wider text-left mt-2'>When we hear the term politics, we usually think of the government, politicians and political parties. For a country to have an organized government and work as per specific guidelines, we require a certain organization. This is where politics comes in, as it essentially forms the government. Every country, group and organization use politics to instrument various ways to organize their events, prospects and more.</p>
         
-        <Image alt='hi'
-        width={100}
-        height={100}
-         className='w-full  mt-3' src='https://www.thegroomingclinic.com/cdn/shop/collections/anthony_skincare_for_men_987860cb-06be-4d9f-a188-186c6586b54d.jpg?v=1665063115'/>
+        <p className = 'text-2xl text-center max-w-6xl mx-auto mt-2'>When we hear the term politics, we usually think of the government, politicians and political parties. For a country to have an organized government and work as per specific guidelines, we require a certain organization. This is where politics comes in, as it essentially forms the government. Every country, group and organization use politics to instrument various ways to organize their events, prospects and more.</p>
+        
+        
         
         <Link href="/post/Must-Have-Basics-Every-Woman-Needs-in-Her-Closet">
         <div className='text-left'>
@@ -31,7 +28,7 @@ const Politics = () => {
  maintitle='SKINCARE' maincontent='Must-Have Basics Every Woman Needs in Her Closet' maindesc='Building a versatile wardrobe starts
   with timeless basics that serve as the foundation for any outfit.These essential pieces ensure that you always 
    ' author='Rahul Sharma'
- days='2 weeks ago' buttontext='' buttoncolor='' buttonhovercolor=''/>
+ days='' buttontext='' buttoncolor='' buttonhovercolor=''/>
  </div>
  </Link>
 <div className='bg-gray-200 mt-4'>
@@ -51,6 +48,7 @@ const Politics = () => {
 </div>
 
     </div>
+    <div className='h-20 bg-gray-200'></div>
     <Footer/>
 
     </div>

@@ -86,7 +86,7 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
             {allArticles.slice(5, 9).map((post, index) => (
-              <Link key={index} href={`/post/${index}`} passHref>
+              <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
                 <div className="bg-grey-200 w-[330px]">
                   <Posts
                     pimg={`/articles/${post.imgUrl}`}
