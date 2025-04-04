@@ -1,0 +1,67 @@
+import React from 'react'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import Blogs from '../../components/Blogs'
+import Posts from '../../components/Posts'
+import Image from 'next/image'
+import politics from '@/constants/politics'
+import Link from 'next/link'
+
+const Politics = () => {
+  return (
+    <>
+    
+    
+    <div className='bg-gray-200'>
+    <Header/>
+    <div className='mt-20 pt-8 text-black text-center mx-5 flex flex-col justify-center'>
+
+        
+        <h1 className='text-7xl mt-10 text-left'>POLITICS</h1>
+        <p className = 'text-2xl  tracking-wider text-left mt-2'>When we hear the term politics, we usually think of the government, politicians and political parties. For a country to have an organized government and work as per specific guidelines, we require a certain organization. This is where politics comes in, as it essentially forms the government. Every country, group and organization use politics to instrument various ways to organize their events, prospects and more.</p>
+        
+        <Image alt='hi'
+        width={100}
+        height={100}
+         className='w-full  mt-3' src='https://www.thegroomingclinic.com/cdn/shop/collections/anthony_skincare_for_men_987860cb-06be-4d9f-a188-186c6586b54d.jpg?v=1665063115'/>
+        
+        <Link href="/post/Must-Have-Basics-Every-Woman-Needs-in-Her-Closet">
+        <div className='text-left'>
+        <Blogs title = "Politics" mainimg='/articles/Blogheraid41.jpg'
+ maintitle='SKINCARE' maincontent='Must-Have Basics Every Woman Needs in Her Closet' maindesc='Building a versatile wardrobe starts
+  with timeless basics that serve as the foundation for any outfit.These essential pieces ensure that you always 
+   ' author='Rahul Sharma'
+ days='2 weeks ago' buttontext='' buttoncolor='' buttonhovercolor=''/>
+ </div>
+ </Link>
+<div className='bg-gray-200 mt-4'>
+ <div className="grid  grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
+  {politics.map((post, index) => (
+    <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+      <div className="bg-grey-200 -mt-18 w-[330px]">
+        <Posts  
+          pimg={`/articles/${post.imgUrl}`} 
+          pheading={post.title}  
+          pcontent={post.contents} 
+        />
+      </div>
+    </Link>
+  ))}
+</div>
+</div>
+
+    </div>
+    <Footer/>
+
+    </div>
+    </>
+  )
+}
+
+export default Politics
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../component/Header'
-import Footer from '../component/Footer'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const Privacy = () => {
   return (
@@ -10,7 +10,7 @@ const Privacy = () => {
       <section className='mt-40 mx-11 mb-7 text-black'>
     <h2 className='text-6xl'>Privacy Policy</h2>
     <p className='mt-2 text-xl'>
-        At <strong>MensXP</strong>, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website. By using our services, you agree to the collection and use of information in accordance with this policy.
+        At <strong>Usnewsinsider</strong>, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website. By using our services, you agree to the collection and use of information in accordance with this policy.
     </p>
 
     <h3 className='text-3xl font-bold mt-2'>1. Information We Collect</h3>
@@ -71,12 +71,12 @@ const Privacy = () => {
         If you have any questions about this Privacy Policy or your personal data, please contact us at:
     </p>
     <p className='text-xl'>
-        Email: <a href="mailto:support@mensxp.com">support@mensxp.com</a><br/>
-        Address: MensXP, Times Internet Limited, India
+        Email: <a href="mailto:support@Usnewsinsider.com">support@Usnewsinsider.com</a><br/>
+        Address: Usnewsinsider, Times Internet Limited, India
     </p>
 
     <p className='text-xl'>
-        For more details, please read our full <a href="https://www.mensxp.com/privacy-policy.html">Privacy Policy</a>.
+        For more details, please read our full <a href="https://www.Usnewsinsider.com/privacy-policy.html">Privacy Policy</a>.
     </p>
 </section>
 
