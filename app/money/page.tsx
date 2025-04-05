@@ -3,7 +3,6 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Blogs from '../../components/Blogs'
 import Posts from '../../components/Posts'
-import Image from 'next/image'
 import money from '@/constants/money'
 import Link from 'next/link'
 

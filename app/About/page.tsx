@@ -8,12 +8,12 @@ const About = () => {
 
     <Header/>
     
-        <title>About Us - MensXP</title>
+        <title>About Us - UsNewsInsider</title>
         <meta name="description" content="Learn more about MensXP, our vision, and our journey." />
       
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">About MensXP</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">About UsNewsInsider</h1>
           <p className="text-gray-600 text-lg">
             Welcome to <span className="font-semibold">MensXP</span>, the ultimate destination for modern men. 
             From grooming and style to relationships and fitness, we bring you content that inspires and empowers.

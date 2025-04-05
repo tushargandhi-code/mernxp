@@ -8,21 +8,26 @@ const Footer = () => {
     <div>
       <footer className=" bg-black flex-col   body-font">
   <div className="container  px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto  text-center md:text-left">
-      <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        
-      <Link href="/">
-        <Image src="/articles/logo.png" alt="MensXP Logo" className='ml-44' width={300} height={300} />
-        </Link>
-      </a>
-    </div>
+  <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+  <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    <Link href="/">
+      <Image 
+        src="/articles/logo.png" 
+        alt="MensXP Logo" 
+        className="mx-auto lg:ml-44 md:mx-0" 
+        width={300} 
+        height={300} 
+      />
+    </Link>
+  </a>
+</div>
     <div className="flex-grow flex flex-wrap md:pl-20 ml-20 -mb-10 pt-8 md:mt-0 mt-10 md:text-left text-center">
 
-    <div className="lg:w-1/4 md:w-1/2 ml-48 w-full ">
+    <div className="lg:w-1/4 md:w-1/2 w-full ml-0 md:ml-48 mx-auto md:mx-0 text-center md:text-left ">
       <h2 className='text-xl -mt-7 mb-2 font-bold'>CATEGORIES</h2>
         <nav className="list-none mb-10">
           <li>
-          <Link href='/entertainment' className="text-white text-md  hover:underline hover:cursor-pointer">Entertainment</Link>
+          <Link href='/local' className="text-white text-md  hover:underline hover:cursor-pointer">Local</Link>
           </li>
           <li>
           <Link href='/politics' className="text-white text-md  hover:underline hover:cursor-pointer">Politics</Link>

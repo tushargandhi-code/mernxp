@@ -30,19 +30,21 @@ const Blogs = ({
   return (
     <div className='pt-20 px-4 bg-gray-200 md:px-8 lg:px-16 xl:px-24'>
       {/* Title and Button */}
-      <div className='flex flex-col md:flex-row  justify-around items-center'>
-        <Link href={title}>
-        <span className='uppercase mr-61  md:text-5xl hover:underline cursor-pointer text-black font-bold'>
-          {title}
-        </span>
-        </Link>
-        <Link href={title}>
-        <button className={`mt-4 md:mt-0 px-6 lg:ml-96 py-2 ${buttoncolor} text-white rounded-lg transition duration-300 ${buttonhovercolor}`}>
-          {buttontext}
-        </button>
-        </Link>
-        
-      </div>
+      <div className="flex flex-col md:flex-row justify-center md:justify-around items-center text-center">
+  <Link href={title}>
+    <span className="uppercase lg:mr-61 sm:text-7xl md:text-5xl hover:underline cursor-pointer text-black font-bold">
+      {title}
+    </span>
+  </Link>
+  <Link href={title}>
+    <button
+      className={`mt-4 md:mt-0 px-6 py-2 text-white rounded-lg transition duration-300 ${buttoncolor} ${buttonhovercolor} lg:ml-96`}
+    >
+      {buttontext}
+    </button>
+  </Link>
+</div>
+
 
       {/* Main Blog Section */}
       <section className='text-gray-600 body-font  overflow-hidden '>

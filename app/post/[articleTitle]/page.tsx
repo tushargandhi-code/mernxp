@@ -5,9 +5,6 @@ import Posts from "@/components/Posts";
 import Link from "next/link";
 import allArticles from "@/constants/all";
 
-
-
-
 const formatTitle = (title: string) => title.replace(/[^A-Za-z0-9]+/g, "-");
 
 export function generateStaticParams(): { articleTitle: string }[] {
@@ -25,7 +22,6 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
   console.log(article);
   if (!article) return <h1>Post not found</h1>;
 
-  // Get the date two days before the current date
   const currentDate = new Date();
   currentDate.setDate(currentDate.getDate() - 2);
   const formattedDate = currentDate.toDateString();
@@ -34,41 +30,48 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
     <>
       <div className="bg-gray-200">
         <Header />
-        <div className="text-black mt-20 bg-gray-200 p-6">
-          <h1 className="text-5xl mx-60 font-bold">{article.title}</h1>
+        <div className="text-black mt-20 bg-gray-200 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 py-6">
+          <h1 className="text-3xl lg:mx-40 sm:text-4xl lg:text-5xl font-bold mb-6">
+            {article.title}
+          </h1>
 
-          <div className="flex items-center mx-60 mt-2 space-x-3 p-4 bg-gray-200 rounded-lg shadow-md">
+          <div className="flex flex-col lg:mx-40 sm:flex-row items-start sm:items-center gap-3 sm:gap-6 p-4 bg-gray-200 rounded-lg shadow-md mb-6">
             <div className="text-gray-800">
-              <p className="text-xl font-semibold">{article.authorName}</p>
-              <p className="text-md mt-2 text-gray-500">Date: {formattedDate}</p>
-              <p className="text-md mt-2 text-gray-500">
+              <p className="text-lg sm:text-xl font-semibold">
+                {article.authorName}
+              </p>
+              <p className="text-sm sm:text-md mt-2 text-gray-500">
+                 {formattedDate}
+              </p>
+              <p className="text-sm sm:text-md mt-2 text-gray-500">
                 Read Time: {article.readTime}
               </p>
             </div>
           </div>
+
           <Image
             src={`/articles/${article.imgUrl}`}
             width={1000}
             height={1000}
             alt={article.title}
-            className="mx-auto rounded-lg"
+            className="w-full max-w-5xl mx-auto rounded-lg"
           />
 
-          <div className="max-w-2xl text-black/85 tracking-normal mx-auto mt-6">
+          <div className="text-black/85 tracking-normal mt-6 text-base sm:text-lg leading-relaxed space-y-4 max-w-3xl mx-auto">
             {article.contents.map((content, index) =>
               /\.(jpg)$/i.test(content) ? (
                 <Image
                   key={index}
-                  width={2}
-                  height={2}
+                  width={600}
+                  height={400}
                   src={`/articles/${content}`}
                   alt="Image"
-                  className="mt-2"
+                  className="mt-4 w-full rounded-lg"
                 />
               ) : (
-                <p key={index} className="mt-2 text-xl">
+                <p key={index}>
                   {content.includes("***") ? (
-                    <strong className="mt-12 block text-4xl">
+                    <strong className="block text-2xl sm:text-3xl mt-8">
                       {content.replace(/\*\*\*/g, "")}
                     </strong>
                   ) : (
@@ -80,10 +83,11 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
           </div>
         </div>
 
+
         <div className="bg-gray-200 mt-20">
-          <h2 className="text-black ml-50 font-bold tracking-wide text-5xl">
-            Related Stories
-          </h2>
+        <h2 className="text-black text-center font-bold tracking-wide text-3xl sm:text-4xl lg:text-5xl mb-8">
+  Related Stories
+</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
             {allArticles.slice(5, 9).map((post, index) => (
               <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
@@ -99,6 +103,7 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
           </div>
         </div>
 
+      <div className="h-20 bg-gray-200"></div>
         <Footer />
       </div>
     </>

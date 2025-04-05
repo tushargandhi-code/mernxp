@@ -18,9 +18,9 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading }) => {
   });
 
   return (
-    <div className="xl:w-1/4 flex -mr-28 -mt-8 justify-around items-center md:w-1/2 p-4">
+    <div className="w-full lg:-mt-8 md:w-1/2 xl:w-1/4 flex justify-center md:justify-around items-center p-4">
       <div className="p-6">
-        <div className=' border-white rounded-md border-2 bg-white'>
+        <div className="border-white rounded-md border-2 bg-white">
           <Image
             src={pimg}
             className="object-cover p-2 h-56"
@@ -32,7 +32,7 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading }) => {
           <h4 className="mt-3 text-xl text-left text-black w-[260px] p-2 font-bold title-font mb-4">
             {pheading}
           </h4>
-          <p className="text-gray-500 text-left text-sm p-2">Date: {formattedDate}</p>
+          <p className="text-gray-500 text-left text-sm p-2"> {formattedDate}</p>
         </div>
       </div>
     </div>
@@ -40,3 +40,5 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading }) => {
 };
 
 export default Posts;
+
+ 

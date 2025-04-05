@@ -3,7 +3,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Blogs from '../../components/Blogs'
 import Posts from '../../components/Posts'
-import Image from 'next/image'
+
 import entertainment from '@/constants/entertainment'
 import Link from 'next/link'
 
@@ -17,7 +17,7 @@ const Entertainment = () => {
     <div className='mt-20 pt-8 text-black text-center mx-5 flex flex-col justify-center'>
 
         
-        <p className = 'text-2xl max-w-6xl mx-auto mt-2'>Entertainment is an ever-evolving expression of style, blending tradition with modern influences. 
+        <p className = 'text-2xl max-w-6xl mx-auto mt-2'>Local is an ever-evolving expression of style, blending tradition with modern influences. 
         In 2025, sustainable fashion takes center stage, with eco-friendly materials and ethical production practices 
         becoming essential in the industry. Vibrant colors, oversized silhouettes, and vintage revivals are making a comeback, 
         redefining how we approach everyday wear. </p>
@@ -26,9 +26,9 @@ const Entertainment = () => {
   
   <Link href="/post/How-to-Start-a-Profitable-Side-Hustle-While-Working-Full-Time">     
   <div className='text-left'>
-  <Blogs title = "Entertainment" mainimg="/articles/Blogheraid2.jpg"
+  <Blogs title = "local" mainimg="/articles/Blogheraid2.jpg"
 
- maintitle='CELEBRITY STYLE' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
+ maintitle='LOCAL' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
  maindesc='Starting a side hustle while working full-time can be a great way to increase your income, build new skills, and create financial security.' author='Rajat Sen'
  days='5 days ago' buttontext='' buttoncolor='' buttonhovercolor=''/>
  </div>

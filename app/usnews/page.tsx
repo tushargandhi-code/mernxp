@@ -3,7 +3,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Blogs from '../../components/Blogs'
 import Posts from '../../components/Posts'
-import Image from 'next/image'
+
 import Link from 'next/link'
 import usNews from '@/constants/usnews'
 
@@ -24,7 +24,7 @@ const Usnews = () => {
         
         <Link href="/post/Mental-Health-and-Self-Care-How-to-Reduce-Stress-and-Anxiety">
          <div className='text-left'>
-        <Blogs title = "USNEWS" mainimg='/articles/Blogheraid29.jpg'
+        <Blogs title = "usnews" mainimg='/articles/Blogheraid29.jpg'
          maintitle='US RELATED NEWS' maincontent='Mental Health and Self-Care: How to Reduce Stress and Anxiety'
          maindesc='Stress and anxiety have become common issues in modern life, affecting both mental and physical life being.' author='James Carter'
          days='' buttontext='' buttoncolor='' buttonhovercolor=''/>

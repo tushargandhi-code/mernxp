@@ -31,7 +31,9 @@ const page = () => {
 
 <main >
   
+   {/* <Link href='/privacy' passHref> */}
   <Slider/>
+  {/* </Link> */}
   
 </main>
 
@@ -110,8 +112,8 @@ const page = () => {
 </div>
 
 <Link href="/post/How-to-Start-a-Profitable-Side-Hustle-While-Working-Full-Time">
-<Blogs title = "entertainment" mainimg="/articles/Blogheraid2.jpg"
- maintitle='ENTERTAINMENT' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
+<Blogs title = "local" mainimg="/articles/Blogheraid2.jpg"
+ maintitle='local' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
  maindesc='Starting a side hustle while working full-time can be a great way to increase your income, build new skills, and create financial security.' author='Rajat Sen'
  days='' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
  </Link>

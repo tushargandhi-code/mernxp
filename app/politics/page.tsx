@@ -3,7 +3,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Blogs from '../../components/Blogs'
 import Posts from '../../components/Posts'
-import Image from 'next/image'
+
 import politics from '@/constants/politics'
 import Link from 'next/link'
 
@@ -24,7 +24,7 @@ const Politics = () => {
         
         <Link href="/post/Must-Have-Basics-Every-Woman-Needs-in-Her-Closet">
         <div className='text-left'>
-        <Blogs title = "Politics" mainimg='/articles/Blogheraid41.jpg'
+        <Blogs title = "politics" mainimg='/articles/Blogheraid41.jpg'
  maintitle='SKINCARE' maincontent='Must-Have Basics Every Woman Needs in Her Closet' maindesc='Building a versatile wardrobe starts
   with timeless basics that serve as the foundation for any outfit.These essential pieces ensure that you always 
    ' author='Rahul Sharma'
