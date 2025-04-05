@@ -22,9 +22,16 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
   console.log(article);
   if (!article) return <h1>Post not found</h1>;
 
-  const currentDate = new Date();
-  currentDate.setDate(currentDate.getDate() - 2);
-  const formattedDate = currentDate.toDateString();
+  const randomDaysAgo = Math.floor(Math.random() * 5) + 1;
+
+const postDate = new Date();
+postDate.setDate(postDate.getDate() - randomDaysAgo);
+
+const formattedDate = postDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
 
   return (
     <>
@@ -37,9 +44,18 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
 
           <div className="flex flex-col lg:mx-40 sm:flex-row items-start sm:items-center gap-3 sm:gap-6 p-4 bg-gray-200 rounded-lg shadow-md mb-6">
             <div className="text-gray-800">
-              <p className="text-lg sm:text-xl font-semibold">
+              <div className="flex">
+              <Image 
+                              src={`/authors/${article.authorName}.jpg`} 
+                              alt="" 
+                              width={50} 
+                              height={50} 
+                              className="rounded-full object-cover"
+                />
+              <p className="text-lg sm:text-xl mt-3 ml-3 font-semibold">
                 {article.authorName}
               </p>
+              </div>
               <p className="text-sm sm:text-md mt-2 text-gray-500">
                  {formattedDate}
               </p>

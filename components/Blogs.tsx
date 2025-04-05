@@ -64,8 +64,15 @@ const Blogs = ({
                 {maincontent}
               </h1>
               <h5 className='text-xl '>{maindesc}</h5>
-              <div className='mt-6'>
-                <p className='text-black font-medium text-lg md:text-xl'>{author}</p>
+              <div className='mt-6 flex'>
+              <Image 
+                src={`/authors/${author}.jpg`} 
+                alt="" 
+                width={50} 
+                height={50} 
+                className="rounded-full object-cover"
+  />
+                <p className='text-black font-medium mt-2 ml-4 text-lg md:text-xl'>{author}</p>
                 <p className='text-gray-600 text-sm md:text-base'>{days}</p>
               </div>
             </div>

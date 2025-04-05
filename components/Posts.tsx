@@ -9,13 +9,16 @@ interface PostProps {
 
 const Posts: React.FC<PostProps> = ({ pimg, pheading }) => {
   // Get current date and subtract 2 days
-  const postDate = new Date();
-  postDate.setDate(postDate.getDate() - 2);
-  const formattedDate = postDate.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
+  const randomDaysAgo = Math.floor(Math.random() * 5) + 1;
+
+const postDate = new Date();
+postDate.setDate(postDate.getDate() - randomDaysAgo);
+
+const formattedDate = postDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
 
   return (
     <div className="w-full lg:-mt-8 md:w-1/2 xl:w-1/4 flex justify-center md:justify-around items-center p-4">

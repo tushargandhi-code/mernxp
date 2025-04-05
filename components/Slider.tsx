@@ -70,26 +70,49 @@ const Slider = () => {
                 </div>
               </Link>
             ) : (
-              <div className="relative h-full w-full">
-                <Image
-                  src={slide.image}
-                  alt={slide.title}
-                  width={1920}
-                  height={1080}
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 flex flex-col justify-center items-center text-white font-bold p-4 bg-black/40">
-                  <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-center">
-                    {slide.title}
-                  </h2>
-                  <p className="mt-2 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold tracking-wide text-center">
-                    {slide.content}
-                  </p>
-                  <p className="mt-2 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold tracking-wide text-center">
-                    {slide.content2}
-                  </p>
-                </div>
+              index === 1 ? (
+                <Link href="/post/Turning-Your-Hobby-into-a-Side-Hustle-A-Step-by-Step-Guide" className="block relative w-full h-full">
+                  <Image
+                    src={slide.image}
+                    alt={slide.title}
+                    width={1920}
+                    height={1080}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
+                  <div className="absolute inset-0 flex flex-col justify-center items-center text-white font-bold p-4 bg-black/40">
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-center">
+                      {slide.title}
+                    </h2>
+                    <p className="mt-2 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold tracking-wide text-center">
+                      {slide.content}
+                    </p>
+                    <p className="mt-2 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold tracking-wide text-center">
+                      {slide.content2}
+                    </p>
+                  </div>
+                </Link>
+              ) :<Link href="/post/The-Most-Lucrative-Side-Hustles-with-Low-Startup-Costs" className="block relative w-full h-full">
+              <Image
+                src={slide.image}
+                alt={slide.title}
+                width={1920}
+                height={1080}
+                className="w-full h-full object-cover"
+                priority
+              />
+              <div className="absolute inset-0 flex flex-col justify-center items-center text-white font-bold p-4 bg-black/40">
+                <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-center">
+                  {slide.title}
+                </h2>
+                <p className="mt-2 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold tracking-wide text-center">
+                  {slide.content}
+                </p>
+                <p className="mt-2 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold tracking-wide text-center">
+                  {slide.content2}
+                </p>
               </div>
+            </Link>
             )}
           </SwiperSlide>
         ))}
