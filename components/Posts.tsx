@@ -21,13 +21,13 @@ const formattedDate = postDate.toLocaleDateString('en-US', {
 });
 
   return (
-    <div className="w-full lg:-mt-8 md:w-1/2 xl:w-1/4 flex justify-center md:justify-around items-center p-4">
-      <div className="p-6">
+    <div className="w-full lg:-mt-8 md:w-1/2 xl:w-1/4 flex justify-center md:justify-around items-center p-2 sm:p-4">
+      <div className="p-3 sm:p-6">
         <div className="border-white rounded-md border-2 bg-white">
           <Image
             src={pimg}
-            className="object-cover p-2 h-56"
-            width={260}
+            className="object-cover p-2 h-64 sm:h-56"
+            width={280}
             height={386}
             alt="Post Image"
             title="Post"

@@ -68,7 +68,7 @@ const page = () => {
 <Link href="/post/The-Importance-of-Self-Care-Why-Taking-Time-for-Yourself-Matters">
 <Blogs title = "money" mainimg='/articles/Blogheraid26.jpg'
  maintitle='MONEY' maincontent='The Importance of Self-Care: Why Taking Time for Yourself Matters'
- maindesc='Self-care is more than just a buzzword—its an essential aspect of maintaining physical, mental and emotional life being.' author='Darshan Yewalekar'
+ maindesc='Self-care is more than just a buzzword—its an essential aspect of maintaining physical, mental and emotional life being.' author='Anita Singh'
  days='' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
  </Link>
 
@@ -91,7 +91,7 @@ const page = () => {
 <Link href="/post/Mental-Health-and-Self-Care-How-to-Reduce-Stress-and-Anxiety">
 <Blogs title = "usnews" mainimg='/articles/Blogheraid29.jpg'
  maintitle='US RELATED NEWS' maincontent='Mental Health and Self-Care: How to Reduce Stress and Anxiety'
- maindesc='Stress and anxiety have become common issues in modern life, affecting both mental and physical life being.' author='James Carter'
+ maindesc='Stress and anxiety have become common issues in modern life, affecting both mental and physical life being.' author='Samantha Lee'
  days='' buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
  </Link>
 

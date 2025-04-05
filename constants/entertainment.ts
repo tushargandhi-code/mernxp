@@ -98,7 +98,7 @@ const entertainment = [
     {
       title: `Online Side Hustles: Ways to Earn Money from Home`,
       imgUrl: `Blogheraid3.jpg`,
-      authorName: `James Carter`,
+      authorName: `Samantha Lee`,
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `With the rise of remote work and digital platforms, earning money from home has never been easier. Online side hustles provide a flexible way to supplement your income without leaving your house. Whether you’re looking for a part-time gig or a full-fledged online business, there are numerous opportunities to explore.`,
@@ -328,7 +328,7 @@ const entertainment = [
     {
       title: `How to Balance a Side Hustle with a Full-Time Job`,
       imgUrl: `Blogheraid8.jpg`,
-      authorName: `James Carter`,
+      authorName: `Samantha Lee`,
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Balancing a side hustle with a full-time job can be challenging, but with the right strategies, it is possible to manage both effectively without burnout. Here are some tips to help you stay productive and maintain a healthy work-life balance.`,

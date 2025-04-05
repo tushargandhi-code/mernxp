@@ -2,7 +2,7 @@ const politics = [
     {
         title: `The Ultimate Wardrobe Essentials for Every Season`,
         imgUrl: `Blogheraid39.jpg`,
-        authorName: `James Carter`,
+        authorName: `Samantha Lee`,
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Building a versatile wardrobe ensures you're prepared for any season while maintaining style and comfort. By investing in timeless essentials, you can create effortlessly chic outfits year-round.`,
@@ -228,7 +228,7 @@ const politics = [
       {
         title: `How to Invest in Timeless Pieces That Never Go Out of Style`,
         imgUrl: `Blogheraid44.jpg`,
-        authorName: `James Carter`,
+        authorName: `Samantha Lee`,
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Building a wardrobe with timeless pieces ensures that you always look stylish without constantly chasing trends. Investing in high-quality essentials allows you to create versatile outfits that stand the test of time. Here are the key wardrobe staples that never go out of style.`,
@@ -469,7 +469,7 @@ const politics = [
       {
         title: `The Art of Layering: Mastering Seasonal Fashion with Essentials`,
         imgUrl: `Blogheraid50.jpg`,
-        authorName: `James Carter`,
+        authorName: `Samantha Lee`,
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Layering is an essential skill when it comes to mastering seasonal fashion. By combining different pieces thoughtfully, you can stay comfortable, stylish, and prepared for ever-changing weather conditions. Here’s how to perfect the art of layering with the right essentials.`,

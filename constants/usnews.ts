@@ -98,7 +98,7 @@ const usNews = [
     {
       title: `Mental Health and Self-Care: How to Reduce Stress and Anxiety`,
       imgUrl: `Blogheraid29.jpg`,
-      authorName: `James Carter`,
+      authorName: `Samantha Lee`,
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Stress and anxiety have become common issues in modern life, affecting both mental and physical well-being. Practicing self-care can help manage stress levels and improve overall mental health. Here’s how to incorporate self-care into your daily routine to reduce stress and anxiety.`,
@@ -256,7 +256,7 @@ const usNews = [
     {
       title: `How to Practice Self-Love and Improve Your Confidence`,
       imgUrl: `Blogheraid34.jpg`,
-      authorName: `James Carter`,
+      authorName: `Samantha Lee`,
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Self-love is the foundation of confidence and overall well-being. It’s about treating yourself with kindness, respect, and understanding. Practicing self-love helps improve mental resilience, emotional stability, and a positive self-image. Here’s how to cultivate self-love and boost your confidence.`,

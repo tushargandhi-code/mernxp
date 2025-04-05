@@ -70,9 +70,9 @@ const Blogs = ({
                 alt="" 
                 width={50} 
                 height={50} 
-                className="rounded-full object-cover"
+                className="rounded-full "
   />
-                <p className='text-black font-medium mt-2 ml-4 text-lg md:text-xl'>{author}</p>
+                <p className='text-black font-medium mt-1 ml-4 text-lg md:text-xl'>{author}</p>
                 <p className='text-gray-600 text-sm md:text-base'>{days}</p>
               </div>
             </div>
