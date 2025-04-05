@@ -36,7 +36,7 @@ const Footer = () => {
           <Link href='/money' className="text-white text-md  hover:underline hover:cursor-pointer">Money</Link>
           </li>
           <li>
-          <Link href='/money' className="text-white text-md  hover:underline hover:cursor-pointer">Us news</Link>
+          <Link href='/usnews' className="text-white text-md  hover:underline hover:cursor-pointer">Us news</Link>
           </li>
           
           
@@ -48,10 +48,10 @@ const Footer = () => {
         <nav className="list-none mb-10">
          
           <li>
-            <Link href='/privacy' className="text-white text-md hover:underline hover:cursor-pointer">Privacy Policy</Link>
+            <Link href='/Privacy' className="text-white text-md hover:underline hover:cursor-pointer">Privacy Policy</Link>
           </li>
           <li>
-          <Link href='/contact' className="text-white text-md hover:underline hover:cursor-pointer">Contact Us</Link>
+          <Link href='/Contact' className="text-white text-md hover:underline hover:cursor-pointer">Contact Us</Link>
           </li>
           <li>
           <Link href='/About' className="text-white text-md hover:underline hover:cursor-pointer">About Us</Link>
@@ -65,13 +65,13 @@ const Footer = () => {
       <h2 className='text-xl -mt-7 mb-2 font-bold'>LEGAL</h2>
         <nav className="list-none mb-10">
           <li>
-          <Link href='/terms' className="text-white text-md hover:underline hover:cursor-pointer">Terms And Conditions</Link>
+          <Link href='/Terms' className="text-white text-md hover:underline hover:cursor-pointer">Terms And Conditions</Link>
           </li>
           <li>
-          <Link href='/dmca' className="text-white text-md hover:underline hover:cursor-pointer">DMCA</Link>
+          <Link href='/DMCA' className="text-white text-md hover:underline hover:cursor-pointer">DMCA</Link>
           </li>
           <li>
-          <Link href='/cookies' className="text-white text-md hover:underline hover:cursor-pointer">Cookies Policy</Link>
+          <Link href='/Cookies' className="text-white text-md hover:underline hover:cursor-pointer">Cookies Policy</Link>
           </li>
           
         </nav>
