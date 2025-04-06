@@ -25,7 +25,7 @@ const Money = () => {
 <div className='text-left'>
 <Blogs title = "money" mainimg='/articles/Blogheraid26.jpg'
  maintitle='MAKE MONEY' maincontent='The Importance of Self-Care: Why Taking Time for Yourself Matters'
- maindesc='Self-care is more than just a buzzword—its an essential aspect of maintaining physical, mental and emotional life being.' author='Darshan Yewalekar'
+ maindesc='Self-care is more than just a buzzword—its an essential aspect of maintaining physical, mental and emotional life being.' author='Anita Singh'
  days='' buttontext='' buttoncolor='' buttonhovercolor=''/>
  </div>
  </Link>
