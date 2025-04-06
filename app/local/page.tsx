@@ -30,7 +30,7 @@ const Entertainment = () => {
 
  maintitle='LOCAL' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
  maindesc='Starting a side hustle while working full-time can be a great way to increase your income, build new skills, and create financial security.' author='Rajat Sen'
- days='5 days ago' buttontext='' buttoncolor='' buttonhovercolor=''/>
+ days='' buttontext='' buttoncolor='' buttonhovercolor=''/>
  </div>
  </Link>
  
