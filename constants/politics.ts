@@ -3,6 +3,7 @@ const politics = [
         title: `The Ultimate Wardrobe Essentials for Every Season`,
         imgUrl: `Blogheraid39.jpg`,
         authorName: `Samantha Lee`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Building a versatile wardrobe ensures you're prepared for any season while maintaining style and comfort. By investing in timeless essentials, you can create effortlessly chic outfits year-round.`,
@@ -46,6 +47,7 @@ const politics = [
         title: `How to Build a Capsule Wardrobe: Minimalism Meets Style`,
         imgUrl: `Blogheraid40.jpg`,
         authorName: `Anita Singh`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `A capsule wardrobe is a curated collection of versatile, high-quality pieces that can be mixed and matched to create a variety of outfits. This minimalist approach to fashion not only saves time and money but also promotes sustainability and personal style. Here's how to build your own capsule wardrobe.`,
@@ -85,6 +87,7 @@ const politics = [
         title: `Must-Have Basics Every Woman Needs in Her Closet`,
         imgUrl: `Blogheraid41.jpg`,
         authorName: `Rahul Sharma`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Building a versatile wardrobe starts with timeless basics that serve as the foundation for any outfit. These essential pieces ensure that you always have something stylish and functional to wear, no matter the occasion. Here are the must-have basics every woman should own.`,
@@ -134,6 +137,7 @@ const politics = [
         title: `Wardrobe Staples for Men: Dressing Smart and Stylish`,
         imgUrl: `Blogheraid42.jpg`,
         authorName: `Samantha Lee`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Building a stylish and functional wardrobe starts with key staples that never go out of fashion. These essential pieces ensure that a man is always dressed appropriately for any occasion. Here are the must-have wardrobe staples every man should own.`,
@@ -181,6 +185,7 @@ const politics = [
         title: `The Perfect Workwear Wardrobe: Essentials for a Professional Look`,
         imgUrl: `Blogheraid43.jpg`,
         authorName: `Rajat Sen`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Dressing professionally is key to making a great impression in the workplace. A well-curated workwear wardrobe ensures that you always look polished and put together. Here are the essential pieces every professional should own.`,
@@ -229,6 +234,7 @@ const politics = [
         title: `How to Invest in Timeless Pieces That Never Go Out of Style`,
         imgUrl: `Blogheraid44.jpg`,
         authorName: `Samantha Lee`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Building a wardrobe with timeless pieces ensures that you always look stylish without constantly chasing trends. Investing in high-quality essentials allows you to create versatile outfits that stand the test of time. Here are the key wardrobe staples that never go out of style.`,
@@ -274,6 +280,7 @@ const politics = [
         title: `Dressing for Different Occasions: Key Wardrobe Must-Haves`,
         imgUrl: `Blogheraid45.jpg`,
         authorName: `Anita Singh`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Choosing the right outfit for different occasions ensures that you always make a great impression. Whether it's a formal event, a casual outing, or a business meeting, having the right wardrobe staples makes dressing up effortless. Here are key wardrobe must-haves for every occasion.`,
@@ -313,6 +320,7 @@ const politics = [
         title: `How to Transition Your Wardrobe from Day to Night Effortlessly`,
         imgUrl: `Blogheraid46.jpg`,
         authorName: `Rahul Sharma`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Mastering the transition from day to night outfits can save time and effort while keeping you stylish. Whether you're heading from the office to a dinner date or from a casual day out to an evening event, a few key wardrobe strategies make all the difference. Here’s how to transition seamlessly.`,
@@ -354,6 +362,7 @@ const politics = [
         title: `The Best Fabrics for a Long-Lasting and Sustainable Wardrobe`,
         imgUrl: `Blogheraid47.jpg`,
         authorName: `Samantha Lee`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Choosing the right fabrics is essential for building a wardrobe that is both durable and eco-friendly. Investing in high-quality materials ensures that your clothing lasts longer, reducing waste and promoting sustainability. Here are the best fabrics to consider for a long-lasting wardrobe.`,
@@ -393,6 +402,7 @@ const politics = [
         title: `Wardrobe Essentials for Travel: Packing Light and Stylish`,
         imgUrl: `Blogheraid48.jpg`,
         authorName: `Rajat Sen`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `When traveling, it's important to pack light while still looking stylish. A well-curated travel wardrobe can help you stay comfortable and fashionable without overpacking. Here are some wardrobe essentials to consider for your next trip.`,
@@ -431,6 +441,7 @@ const politics = [
         title: `Building a Budget-Friendly Wardrobe Without Sacrificing`,
         imgUrl: `Blogheraid49.jpg`,
         authorName: `Samantha Lee`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Building a budget-friendly wardrobe doesn't mean compromising on quality. With careful planning and smart shopping, you can create a wardrobe filled with high-quality pieces that stand the test of time. Here are some tips for building a stylish yet affordable wardrobe.`,
@@ -470,6 +481,7 @@ const politics = [
         title: `The Art of Layering: Mastering Seasonal Fashion with Essentials`,
         imgUrl: `Blogheraid50.jpg`,
         authorName: `Samantha Lee`,
+        section:"politics",
         readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
         contents: [
           `Layering is an essential skill when it comes to mastering seasonal fashion. By combining different pieces thoughtfully, you can stay comfortable, stylish, and prepared for ever-changing weather conditions. Here’s how to perfect the art of layering with the right essentials.`,

@@ -1,9 +1,9 @@
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Posts from "@/components/Posts";
 import Link from "next/link";
 import allArticles from "@/constants/all";
+import CreationDate from "@/components/Date";
 
 const formatTitle = (title: string) => title.replace(/[^A-Za-z0-9]+/g, "-");
 
@@ -13,7 +13,11 @@ export function generateStaticParams(): { articleTitle: string }[] {
   }));
 }
 
-const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> }) => {
+const PostPage = async ({
+  params,
+}: {
+  params: Promise<{ articleTitle: string }>;
+}) => {
   const { articleTitle } = await params;
   const article = allArticles.find(
     ({ title }) => formatTitle(title) === articleTitle
@@ -22,47 +26,44 @@ const PostPage = async ({ params }: { params: Promise<{ articleTitle: string }> 
   console.log(article);
   if (!article) return <h1>Post not found</h1>;
 
-  const randomDaysAgo = Math.floor(Math.random() * 5) + 1;
-
-const postDate = new Date();
-postDate.setDate(postDate.getDate() - randomDaysAgo);
-
-const formattedDate = postDate.toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
-
   return (
     <>
       <div className="bg-gray-200">
-        <Header />
         <div className="text-black mt-20 bg-gray-200 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 py-6">
           <h1 className="text-3xl lg:mx-40 sm:text-4xl lg:text-5xl font-bold mb-6">
             {article.title}
           </h1>
 
-          <div className="flex flex-col lg:mx-40 sm:flex-row items-start sm:items-center gap-3 sm:gap-6 p-4 bg-gray-200 rounded-lg shadow-md mb-6">
-            <div className="text-gray-800">
-              <div className="flex">
-              <Image 
-                              src={`/authors/${article.authorName}.jpg`} 
-                              alt="" 
-                              width={50} 
-                              height={50} 
-                              className="rounded-full object-cover"
-                />
-              <p className="text-lg sm:text-xl mt-3 ml-3 font-semibold">
-                {article.authorName}
-              </p>
-              </div>
-              <p className="text-sm sm:text-md mt-2 text-gray-500">
-                 {formattedDate}
-              </p>
-              <p className="text-sm sm:text-md mt-2 text-gray-500">
-                Read Time: {article.readTime}
-              </p>
-            </div>
+          <div
+            className="flex flex-col lg:mx-40 sm:flex-row items-start sm:items-center gap-3 sm:gap-6 p-4 bg-gray-200 rounded-lg
+            mb-6"
+          >
+            <div className="text-gray-800 w-full flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
+  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
+    <div className="flex items-center gap-2">
+      <Image
+        src={`/authors/${article.authorName}.jpg`}
+        alt=""
+        width={50}
+        height={50}
+        className="rounded-full object-cover object-center size-12"
+      />
+      <p className="text-lg sm:text-xl font-semibold">
+        {article.authorName}
+      </p>
+    </div>
+    <p className="text-sm sm:text-base text-gray-500 ml-14 sm:ml-0">
+      <CreationDate articleNumber={article.articleNumber} />
+    </p>
+  </div>
+
+  <div className="flex">
+    <p className="text-sm sm:text-md text-gray-500">
+      Read Time: {article.readTime}
+    </p>
+  </div>
+</div>
+
           </div>
 
           <Image
@@ -99,27 +100,38 @@ const formattedDate = postDate.toLocaleDateString('en-US', {
           </div>
         </div>
 
-
         <div className="bg-gray-200 mt-20">
-        <h2 className="text-black text-center font-bold tracking-wide text-3xl sm:text-4xl lg:text-5xl mb-8">
-  Related Stories
-</h2>
+          <h2 className="text-black text-center font-bold tracking-wide text-3xl sm:text-4xl lg:text-5xl mb-8">
+            Related Stories
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
-            {allArticles.slice(5, 9).map((post, index) => (
-              <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
-                <div className="bg-grey-200 w-[330px]">
-                  <Posts
-                    pimg={`/articles/${post.imgUrl}`}
-                    pheading={post.title}
-                    pcontent={post.contents}
-                  />
-                </div>
-              </Link>
-            ))}
+            {allArticles
+              .filter(
+                (post) =>
+                  post.section === article.section &&
+                  post.title !== article.title
+              )
+              .slice(0, 4)
+              .map((post, index) => (
+                <Link
+                  key={index}
+                  href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`}
+                  passHref
+                >
+                  <div className="bg-grey-200 w-[330px]">
+                    <Posts
+                      pimg={`/articles/${post.imgUrl}`}
+                      pheading={post.title}
+                      pcontent={post.contents}
+                      articleNumber={post.articleNumber}
+                    />
+                  </div>
+                </Link>
+              ))}
           </div>
         </div>
 
-      <div className="h-20 bg-gray-200"></div>
+        <div className="h-20 bg-gray-200"></div>
         <Footer />
       </div>
     </>

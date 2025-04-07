@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Header from "../../components/Header";
+
 import Footer from "../../components/Footer";
 
 interface FormData {
@@ -68,7 +68,7 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <Header />
+    
       <div className="max-w-7xl mt-20 mx-auto p-6 text-black min-h-screen">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
           Contact Us

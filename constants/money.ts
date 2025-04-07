@@ -3,6 +3,7 @@ const money = [
       title: `The Importance of Self-Care: Why Taking Time for Yourself Matters`,
       imgUrl: `Blogheraid26.jpg`,
       authorName: `Rahul Sharma`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Self-care is more than just a buzzword—it’s an essential aspect of maintaining physical, mental, and emotional well-being. In today's fast-paced world, taking time for yourself can feel like a luxury, but it is necessary for a balanced and healthy life. Let's explore why self-care matters and how you can incorporate it into your routine.`,
@@ -31,6 +32,7 @@ const money = [
       title: `Simple Daily Self-Care Habits for a Healthier Mind and Body`,
       imgUrl: `Blogheraid27.jpg`,
       authorName: `Samantha Lee`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Taking care of yourself doesn’t have to be complicated. Incorporating simple daily self-care habits into your routine can improve your physical, mental, and emotional well-being. Here are some easy ways to prioritize self-care and create a healthier lifestyle.`,
@@ -65,6 +67,7 @@ const money = [
       title: `How to Create a Self-Care Routine That Fits Your Lifestyle`,
       imgUrl: `Blogheraid28.jpg`,
       authorName: `Rajat Sen`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Creating a self-care routine that aligns with your lifestyle is essential for maintaining balance and overall well-being. A personalized self-care plan helps you stay consistent while addressing your physical, mental, and emotional needs. Here’s how to craft a routine that works for you.`,
@@ -99,6 +102,7 @@ const money = [
       title: `Mental Health and Self-Care: How to Reduce Stress and Anxiety`,
       imgUrl: `Blogheraid29.jpg`,
       authorName: `Samantha Lee`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Stress and anxiety have become common issues in modern life, affecting both mental and physical well-being. Practicing self-care can help manage stress levels and improve overall mental health. Here’s how to incorporate self-care into your daily routine to reduce stress and anxiety.`,
@@ -133,6 +137,7 @@ const money = [
       title: `The Best Self-Care Practices for Busy Professionals`,
       imgUrl: `Blogheraid30.jpg`,
       authorName: `Anita Singh`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Balancing work responsibilities while maintaining personal well-being can be challenging. However, practicing self-care is crucial for productivity and overall health. Here are some of the best self-care practices tailored for busy professionals.`,
@@ -164,6 +169,7 @@ const money = [
       title: `Self-Care on a Budget: Affordable Ways to Prioritize Yourself`,
       imgUrl: `Blogheraid31.jpg`,
       authorName: `Rahul Sharma`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Taking care of yourself doesn’t have to be expensive. There are plenty of budget-friendly self-care practices that can help improve your mental, emotional, and physical well-being without breaking the bank. Here are some affordable ways to prioritize yourself.`,
@@ -195,6 +201,7 @@ const money = [
       title: `The Connection Between Self-Care and Productivity`,
       imgUrl: `Blogheraid32.jpg`,
       authorName: `Samantha Lee`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Prioritizing self-care isn’t just about relaxation—it plays a significant role in improving productivity. When you take care of yourself, you enhance focus, creativity, and efficiency, ultimately leading to better performance in all areas of life. Here’s how self-care and productivity are interconnected.`,
@@ -226,6 +233,7 @@ const money = [
       title: `Self-Care for Men: Breaking the Stigma Around Wellness`,
       imgUrl: `Blogheraid33.jpg`,
       authorName: `Rajat Sen`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Self-care is often perceived as a concept geared toward women, but men also need to prioritize their well-being. Breaking the stigma around male self-care is crucial for fostering mental, physical, and emotional health. Here’s why self-care matters for men and how to integrate it into daily life.`,
@@ -257,6 +265,7 @@ const money = [
       title: `How to Practice Self-Love and Improve Your Confidence`,
       imgUrl: `Blogheraid34.jpg`,
       authorName: `Samantha Lee`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Self-love is the foundation of confidence and overall well-being. It’s about treating yourself with kindness, respect, and understanding. Practicing self-love helps improve mental resilience, emotional stability, and a positive self-image. Here’s how to cultivate self-love and boost your confidence.`,
@@ -288,6 +297,7 @@ const money = [
       title: `The Power of Journaling: How Writing Can Be a Form of Self-Care`,
       imgUrl: `Blogheraid35.jpg`,
       authorName: `Anita Singh`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Journaling is a powerful tool for self-care that allows you to express emotions, reflect on experiences, and gain clarity in life. Writing regularly can help reduce stress, enhance self-awareness, and improve mental well-being. Here’s how journaling can be a transformative self-care practice.`,
@@ -319,6 +329,7 @@ const money = [
       title: `The Benefits of Digital Detoxing for Mental and Emotional Well-Being`,
       imgUrl: `Blogheraid36.jpg`,
       authorName: `Rahul Sharma`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `In today's hyper-connected world, digital detoxing has become an essential self-care practice. Taking intentional breaks from screens and social media can improve mental clarity, reduce stress, and enhance emotional well-being. Here’s why unplugging can be a transformative experience.`,
@@ -350,6 +361,7 @@ const money = [
       title: `How Nutrition and Exercise Play a Role in Self-Care`,
       imgUrl: `Blogheraid37.jpg`,
       authorName: `Samantha Lee`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Maintaining a balanced diet and regular physical activity are key components of self-care. Proper nutrition fuels the body, while exercise strengthens both physical and mental well-being. By prioritizing these aspects, individuals can achieve overall wellness and resilience against stress and fatigue.`,
@@ -381,6 +393,7 @@ const money = [
       title: `Self-Care Tips for Better Sleep and Relaxation In A Day`,
       imgUrl: `Blogheraid38.jpg`,
       authorName: `Rajat Sen`,
+      section:"money",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Quality sleep and relaxation are fundamental aspects of self-care. Proper rest rejuvenates the body, improves cognitive function, and enhances emotional well-being. By adopting healthy sleep habits and relaxation techniques, individuals can reduce stress and achieve overall wellness.`,

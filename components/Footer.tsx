@@ -37,7 +37,7 @@ const Footer = () => {
           <Link href='/money' className="text-white text-md  hover:underline hover:cursor-pointer">Money</Link>
           </li>
           <li>
-          <Link href='/usnews' className="text-white text-md  hover:underline hover:cursor-pointer">Us news</Link>
+          <Link href='/usnews' className="text-white text-md  hover:underline hover:cursor-pointer">usnews</Link>
           </li>
           
           
@@ -84,7 +84,7 @@ const Footer = () => {
   <div className="bg-black">
     <div className="container mx-auto py-4 px-5 flex  flex-wrap flex-col sm:flex-row">
     
-      <p className="text-white ml-auto text-sm text-center sm:text-left">© 2009 - 2025 US News Insider Pvt Limited | ALL RIGHTS RESERVED
+      <p className="text-white ml-auto text-sm text-center sm:text-left">2025 US News Insider | ALL RIGHTS RESERVED
        
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

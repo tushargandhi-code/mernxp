@@ -3,6 +3,7 @@ const entertainment = [
       title: `The Best Side Hustles to Make Extra Money in Your Spare Time`,
       imgUrl: `Blogheraid1.jpg`,
       authorName: `Samantha Lee`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `With the rising cost of living and the increasing popularity of flexible work, many people are turning to side hustles to earn extra income. Whether you want to pay off debt, save for a big purchase, or simply increase your financial security, there are plenty of side hustle opportunities to explore. Here are some of the best ways to make money in your spare time.`,
@@ -51,6 +52,7 @@ const entertainment = [
       title: `How to Start a Profitable Side Hustle While Working Full-Time`,
       imgUrl: `Blogheraid2.jpg`,
       authorName: `Rajat Sen`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Starting a side hustle while working full-time can be a great way to increase your income, build new skills, and create financial security. Balancing a full-time job with a side hustle requires planning and dedication, but with the right approach, it can lead to long-term success.`,
@@ -99,6 +101,7 @@ const entertainment = [
       title: `Online Side Hustles: Ways to Earn Money from Home`,
       imgUrl: `Blogheraid3.jpg`,
       authorName: `Samantha Lee`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `With the rise of remote work and digital platforms, earning money from home has never been easier. Online side hustles provide a flexible way to supplement your income without leaving your house. Whether you’re looking for a part-time gig or a full-fledged online business, there are numerous opportunities to explore.`,
@@ -147,6 +150,7 @@ const entertainment = [
       title: `Turning Your Hobby into a Side Hustle: A Step-by-Step Guide`,
       imgUrl: `Blogheraid4.jpg`,
       authorName: `Rahul Sharma`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Turning your hobby into a side hustle can be a fulfilling and profitable endeavor. Whether you enjoy crafting, writing, photography, or fitness, monetizing your passion is easier than ever. Here’s a step-by-step guide to getting started.`,
@@ -195,6 +199,7 @@ const entertainment = [
       title: `Freelancing vs. Side Hustles: Which One is Right for You?`,
       imgUrl: `Blogheraid5.jpg`,
       authorName: `Anita Singh`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Freelancing and side hustles are two popular ways to earn extra income, but they offer different advantages and challenges. Understanding the differences can help you determine which option suits your lifestyle and financial goals better.`,
@@ -238,6 +243,7 @@ const entertainment = [
       title: `How to Market Your Side Hustle and Attract More Customers`,
       imgUrl: `Blogheraid6.jpg`,
       authorName: `Samantha Lee`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Starting a side hustle is just the beginning; marketing it effectively is what brings in customers and revenue. Whether you’re selling products or offering services, having a solid marketing strategy will help you grow and succeed.`,
@@ -286,6 +292,7 @@ const entertainment = [
       title: `The Most Lucrative Side Hustles with Low Startup Costs`,
       imgUrl: `Blogheraid7.jpg`,
       authorName: `Rajat Sen`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Starting a side hustle doesn’t have to require a massive investment. Many lucrative side hustles can be launched with minimal startup costs, making them accessible to anyone looking to earn extra income.`,
@@ -329,6 +336,7 @@ const entertainment = [
       title: `How to Balance a Side Hustle with a Full-Time Job`,
       imgUrl: `Blogheraid8.jpg`,
       authorName: `Samantha Lee`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Balancing a side hustle with a full-time job can be challenging, but with the right strategies, it is possible to manage both effectively without burnout. Here are some tips to help you stay productive and maintain a healthy work-life balance.`,
@@ -367,6 +375,7 @@ const entertainment = [
       title: `Passive Income Side Hustles: Earning Money While You Sleep`,
       imgUrl: `Blogheraid9.jpg`,
       authorName: `Rahul Sharma`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Earning passive income through side hustles can help you achieve financial freedom without constantly trading time for money. Here are some of the best ways to build a sustainable passive income stream.`,
@@ -406,6 +415,7 @@ const entertainment = [
       title: `Side Hustles for Creatives: Monetizing Your Skills and Talents`,
       imgUrl: `Blogheraid10.jpg`,
       authorName: `Anita Singh`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `For creatives, turning passions into profitable side hustles can be both fulfilling and financially rewarding. Here are some of the best ways to monetize your artistic and creative talents.`,
@@ -442,9 +452,10 @@ const entertainment = [
     },
   
     {
-      title: `The Pros and Cons of Gig Economy Side Hustles`,
+      title: `The Pros and Cons of Gig Economy Side Of The Hustles`,
       imgUrl: `Blogheraid11.jpg`,
       authorName: `Samantha Lee`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Gig economy side hustles have become a popular way to earn extra income, but they come with both advantages and challenges. Here’s a breakdown of the pros and cons to help you decide if gig work is right for you.`,
@@ -489,6 +500,7 @@ const entertainment = [
       title: `How to Scale Your Side Hustle into a Full-Time Business`,
       imgUrl: `Blogheraid12.jpg`,
       authorName: `Rajat Sen`,
+      section:"local",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Scaling a side hustle into a full-time business is an exciting journey that requires strategy, dedication, and careful planning. Here are key steps to transition your side hustle into a sustainable and profitable business.`,

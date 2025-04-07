@@ -28,17 +28,17 @@ const Blogs = ({
   buttonhovercolor : string
 }) => {
   return (
-    <div className='pt-20 px-4 bg-gray-200 md:px-8 lg:px-16 xl:px-24'>
+    <div className='p-8'>
       {/* Title and Button */}
-      <div className="flex flex-col md:flex-row justify-center md:justify-around items-center text-center">
-  <Link href={title}>
-    <span className="uppercase lg:mr-61 sm:text-7xl md:text-5xl hover:underline cursor-pointer text-black font-bold">
+      <div className="flex justify-between items-center  ">
+  <Link href={title}  >
+    <span className="uppercase text-xl sm:text-3xl md:text-5xl hover:underline cursor-pointer text-black font-bold">
       {title}
     </span>
   </Link>
   <Link href={title}>
     <button
-      className={`mt-4 md:mt-0 px-6 py-2 text-white rounded-lg transition duration-300 ${buttoncolor} ${buttonhovercolor} lg:ml-96`}
+      className={` px-6 py-2 text-white rounded-lg transition duration-300 ${buttoncolor} ${buttonhovercolor} `}
     >
       {buttontext}
     </button>
@@ -47,8 +47,8 @@ const Blogs = ({
 
 
       {/* Main Blog Section */}
-      <section className='text-gray-600 body-font  overflow-hidden '>
-        <div className='container mx-auto px-4 md:px-8 lg:px-16 xl:px-24 py-12'>
+      <section className='text-gray-600 body-font  overflow-hidden mt-8'>
+        <div className=' '>
           <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8'>
             <Image 
               alt='blog image' 
@@ -58,7 +58,7 @@ const Blogs = ({
               src={mainimg} 
             />
             
-            <div className='lg:w-1/2 w-full ml-1.5 bg-white p-6  rounded-lg shadow-md'>
+            <div className='lg:w-1/2 w-full ml-1.5  bg-white p-6  rounded-lg shadow-md'>
               <h2 className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>{maintitle}</h2>
               <h1 className='text-gray-900 text-2xl md:text-4xl mt-4 font-bold tracking-wide mb-4'>
                 {maincontent}
@@ -68,12 +68,14 @@ const Blogs = ({
               <Image 
                 src={`/authors/${author}.jpg`} 
                 alt="" 
-                width={50} 
-                height={50} 
-                className="rounded-full "
+                width={100} 
+                height={100} 
+                className="rounded-full object-cover object-center  size-14 "
   />
+                <div>
                 <p className='text-black font-medium mt-1 ml-4 text-lg md:text-xl'>{author}</p>
-                <p className='text-gray-600 text-sm md:text-base'>{days}</p>
+                <p className='text-gray-500 ml-4 mt-1 text-lg md:text-base'>{days}</p>
+                </div>
               </div>
             </div>
           </div>

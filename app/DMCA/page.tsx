@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import Header from '../../components/Header'
+
 import Footer from '../../components/Footer'
 
 const DMCA = () => {
@@ -44,7 +44,7 @@ const DMCA = () => {
 
   return (
     <>
-      <Header />
+    
 
       <div className='mt-20'>
         <title>DMCA Takedown Policy</title>
