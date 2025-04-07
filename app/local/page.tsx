@@ -42,6 +42,7 @@ const Entertainment = () => {
               />
             </Link>
 
+<<<<<<< HEAD
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full px-6">
               {entertainment.slice(0, visiblePosts).map((post, index) => (
                 <Link 
@@ -64,6 +65,15 @@ const Entertainment = () => {
                 </Link>
               ))}
             </div>
+=======
+ maintitle='LOCAL' maincontent='How to Start a Profitable Side Hustle While Working Full-Time'
+ maindesc='Starting a side hustle while working full-time can be a great way to increase your income, build new skills, and create financial security.' author='Rajat Sen'
+ days='' buttontext='' buttoncolor='' buttonhovercolor=''/>
+ </div>
+ </Link>
+ 
+ 
+>>>>>>> 68b21da5bc1f833cb94ab8dc6465314354c6362b
 
             {visiblePosts < entertainment.length && (
               <div className='flex justify-center mt-8'>

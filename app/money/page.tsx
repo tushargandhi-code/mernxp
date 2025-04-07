@@ -23,6 +23,7 @@ const Money = () => {
             Money is the medium used by people to buy required goods and services. It is used as the source to fulfill basic needs and is also a source of comfort in life. Money is the most important source to live a healthy and prosperous life; however, it cannot be compared with the significance of love and care. Both have their own importance and benefits. Nevertheless, money is a useful and necessary commodity to live.
           </p>
 
+<<<<<<< HEAD
           <div className="max-w-7xl mx-auto text-left lg:p-4">
             <Link href="/post/Self-Care-Tips-for-Better-Sleep-and-Relaxation-In-A-Day">
               <Blogs 
@@ -38,6 +39,22 @@ const Money = () => {
                 buttonhovercolor=''
               />
             </Link>
+=======
+        
+        
+        <p className = 'text-2xl t max-w-6xl mx-auto mt-2'>Money is the medium used by people to buy required goods and services. It is used as the source to fulfill basic needs and is also a source of comfort in life. Money is the most important source to live a healthy and prosperous life; however, it cannot be compared with the significance of love and care. Both have their own importance and benefits. Nevertheless, money is a useful and necessary commodity to live</p>
+        
+        
+        
+        <Link href="/post/The-Importance-of-Self-Care-Why-Taking-Time-for-Yourself-Matters">
+<div className='text-left'>
+<Blogs title = "money" mainimg='/articles/Blogheraid26.jpg'
+ maintitle='MAKE MONEY' maincontent='The Importance of Self-Care: Why Taking Time for Yourself Matters'
+ maindesc='Self-care is more than just a buzzword—its an essential aspect of maintaining physical, mental and emotional life being.' author='Anita Singh'
+ days='' buttontext='' buttoncolor='' buttonhovercolor=''/>
+ </div>
+ </Link>
+>>>>>>> 68b21da5bc1f833cb94ab8dc6465314354c6362b
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full px-6">
               {money.slice(0, visiblePosts).map((post, index) => (
@@ -82,4 +99,19 @@ const Money = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Money;
+=======
+export default Money
+
+
+
+
+
+
+
+
+
+
+        
+>>>>>>> 68b21da5bc1f833cb94ab8dc6465314354c6362b
