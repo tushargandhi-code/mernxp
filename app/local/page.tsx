@@ -27,20 +27,23 @@ const Entertainment = () => {
           </p>
 
           <div className='max-w-7xl mx-auto lg:p-4 text-left'>
-            <Link href="/post/How-to-Scale-Your-Side-Hustle-into-a-Full-Time-Business">
-              <Blogs 
-                title="local" 
-                mainimg="/articles/Blogheraid12.jpg"
-                maintitle='local'
-                maincontent='How to Scale Your Side Hustle into a Full-Time Business'
-                maindesc='Scaling a side hustle into a full-time business is an exciting journey that requires strategy, dedication, and careful planning.' 
-                author='Rajat Sen'
-                days="06 Apr 2025"
-                buttontext='See all'
-                buttoncolor='bg-orange-500'
-                buttonhovercolor='hover:bg-blue-600'
-              />
+          {entertainment.slice(0,1).map((post,index) => (
+          <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+            <Blogs
+            maincontent={post.title}
+            maindesc= {post.contents[0]}
+            mainimg={`/articles/${post.imgUrl}`}
+            author={post.authorName}
+            days={post.articleNumber}
+            title={post.section}
+            maintitle={post.section}
+            buttontext='see all'
+            buttoncolor='bg-orange-500'
+            buttonhovercolor='hover:bg-blue-600'
+            />
+        
             </Link>
+          ))}
 
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full px-6">

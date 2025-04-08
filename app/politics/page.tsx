@@ -24,20 +24,23 @@ const Politics = () => {
           </p>
 
           <div className="max-w-7xl mx-auto text-left lg:p-4">
-            <Link href="/post/The-Art-of-Layering-Mastering-Seasonal-Fashion-with-Essentials">
-              <Blogs
-                title="politics"
-                mainimg='/articles/Blogheraid50.jpg'
-                maintitle='POLITICS'
-                maincontent='The Art of Layering: Mastering Seasonal Fashion with Essentials'
-                maindesc="Layering is an essential skill when it comes to mastering seasonal fashion. By combining different pieces thoughtfully, you"
-                author='Samantha Lee'
-                days="06 Apr 2025"
-                buttontext=''
-                buttoncolor=''
-                buttonhovercolor=''
-              />
-            </Link>
+          {politics.slice(0,1).map((post,index) => (
+      <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+        <Blogs
+        maincontent={post.title}
+        maindesc= {post.contents[0]}
+        mainimg={`/articles/${post.imgUrl}`}
+        author={post.authorName}
+        days={post.articleNumber}
+        title={post.section}
+        maintitle={post.section}
+        buttontext=''
+        buttoncolor=''
+        buttonhovercolor=''
+    />
+
+    </Link>
+ ))}
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full px-6">
               {politics.slice(0, visiblePosts).map((post, index) => (

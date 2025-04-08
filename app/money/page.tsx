@@ -25,20 +25,24 @@ const Money = () => {
 
 
           <div className="max-w-7xl mx-auto text-left lg:p-4">
-            <Link href="/post/Self-Care-Tips-for-Better-Sleep-and-Relaxation-In-A-Day">
-              <Blogs 
-                title="money" 
-                mainimg='/articles/Blogheraid38.jpg'
-                maintitle='MONEY'
-                maincontent='Self-Care Tips for Better Sleep and Relaxation In A Day'
-                maindesc='Quality sleep and relaxation are fundamental aspects of self-care. Proper rest rejuvenates the body, improves cognitive function, and enhances emotional well-being.' 
-                author='Rajat Sen'
-                days="06 Apr 2025"
-                buttontext=''
-                buttoncolor=''
-                buttonhovercolor=''
-              />
+          {money.slice(0,1).map((post,index) => (
+          <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+            <Blogs
+            maincontent={post.title}
+            maindesc= {post.contents[0]}
+            mainimg={`/articles/${post.imgUrl}`}
+            author={post.authorName}
+            days={post.articleNumber}
+            title={post.section}
+            maintitle={post.section}
+            buttontext='see all'
+            buttoncolor='bg-orange-500'
+            buttonhovercolor='hover:bg-blue-600'
+            />
+        
             </Link>
+          ))}
+
 
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full px-6">

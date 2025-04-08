@@ -43,13 +43,31 @@ const page = () => {
 
 
 <div className='mt-10'>
-<Link href="/post/The-Art-of-Layering-Mastering-Seasonal-Fashion-with-Essentials">
+{/* <Link href="/post/The-Art-of-Layering-Mastering-Seasonal-Fashion-with-Essentials">
 <Blogs title = "politics" mainimg='/articles/Blogheraid50.jpg'
  maintitle='POLITICS' maincontent='The Art of Layering: Mastering Seasonal Fashion with Essentials'
   maindesc='Layering is an essential skill when it comes to mastering seasonal fashion. By combining different pieces thoughtfully, you'
    author='Samantha Lee'
  days="06 Apr 2025" buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
- </Link>
+ </Link> */}
+
+ {politics.slice(0,1).map((post,index) => (
+  <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+    <Blogs
+    maincontent={post.title}
+    maindesc= {post.contents[0]}
+    mainimg={`/articles/${post.imgUrl}`}
+    author={post.authorName}
+    days={post.articleNumber}
+    title={post.section}
+    maintitle={post.section}
+    buttontext='see all'
+    buttoncolor='bg-orange-500'
+    buttonhovercolor='hover:bg-blue-600'
+    />
+
+    </Link>
+ ))}
 
 <div className='bg-gray-200'>
  <div className="grid  grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
@@ -70,12 +88,23 @@ const page = () => {
 </div>
 
 <div className='mt-10'>
-<Link href="/post/Self-Care-Tips-for-Better-Sleep-and-Relaxation-In-A-Day">
-<Blogs title = "money" mainimg='/articles/Blogheraid38.jpg'
- maintitle='MONEY' maincontent='Self-Care Tips for Better Sleep and Relaxation In A Day'
- maindesc='Quality sleep and relaxation are fundamental aspects of self-care. Proper rest rejuvenates the body, improves cognitive function, and enhances emotional well-being.' author='Rajat Sen'
- days="06 Apr 2025" buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
- </Link>
+{money.slice(0,1).map((post,index) => (
+  <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+    <Blogs
+    maincontent={post.title}
+    maindesc= {post.contents[0]}
+    mainimg={`/articles/${post.imgUrl}`}
+    author={post.authorName}
+    days={post.articleNumber}
+    title={post.section}
+    maintitle={post.section}
+    buttontext='see all'
+    buttoncolor='bg-orange-500'
+    buttonhovercolor='hover:bg-blue-600'
+    />
+
+    </Link>
+ ))}
 
 <div className='bg-gray-200'>
  <div className="grid  grid-cols-1   md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
@@ -96,12 +125,23 @@ const page = () => {
 </div>
 
 <div className='mt-10'>
-<Link href="/post/Self-Care-Tips-for-Better-Sleep-and-Relaxation-In-A-Day">
-<Blogs title = "usnews" mainimg='/articles/Blogheraid38.jpg'
- maintitle='US-RELATED-NEWS' maincontent='Self-Care Tips for Better Sleep and Relaxation In A Day'
- maindesc='Quality sleep and relaxation are fundamental aspects of self-care. Proper rest rejuvenates the body, improves cognitive function, and enhances emotional well-being.' author='Rajat Sen'
- days="06 Apr 2025" buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
- </Link>
+{usNews.slice(0,1).map((post,index) => (
+  <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+    <Blogs
+    maincontent={post.title}
+    maindesc= {post.contents[0]}
+    mainimg={`/articles/${post.imgUrl}`}
+    author={post.authorName}
+    days={post.articleNumber}
+    title={post.section}
+    maintitle={post.section}
+    buttontext='see all'
+    buttoncolor='bg-orange-500'
+    buttonhovercolor='hover:bg-blue-600'
+    />
+
+    </Link>
+ ))}
 
 <div className='bg-gray-200'>
  <div className="grid  grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
@@ -122,12 +162,23 @@ const page = () => {
 </div>
 
 <div className='mt-10'>
-<Link href="/post/How-to-Scale-Your-Side-Hustle-into-a-Full-Time-Business">
-<Blogs title = "local" mainimg="/articles/Blogheraid12.jpg"
- maintitle='local' maincontent='How to Scale Your Side Hustle into a Full-Time Business'
- maindesc='Scaling a side hustle into a full-time business is an exciting journey that requires strategy, dedication, and careful planning.' author='Rajat Sen'
- days="06 Apr 2025" buttontext='See all' buttoncolor='bg-orange-500' buttonhovercolor='hover:bg-blue-600'/>
- </Link>
+{entertainment.slice(0,1).map((post,index) => (
+  <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
+    <Blogs
+    maincontent={post.title}
+    maindesc= {post.contents[0]}
+    mainimg={`/articles/${post.imgUrl}`}
+    author={post.authorName}
+    days={post.articleNumber}
+    title={post.section}
+    maintitle={post.section}
+    buttontext='see all'
+    buttoncolor='bg-orange-500'
+    buttonhovercolor='hover:bg-blue-600'
+    />
+
+    </Link>
+ ))}
 
 <div className='bg-gray-200'>
  <div className="grid  grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">

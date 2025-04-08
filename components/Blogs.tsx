@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import CreationDate from './Date';
 
 const Blogs = ({
   title,
@@ -22,7 +23,7 @@ const Blogs = ({
   maincontent: string;
   maindesc: string;
   author: string;
-  days: string;
+  days: number;
   buttontext : string,
   buttoncolor : string,
   buttonhovercolor : string
@@ -60,10 +61,10 @@ const Blogs = ({
             
             <div className='lg:w-1/2 w-full ml-1.5  bg-white p-6  rounded-lg shadow-md'>
               <h2 className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>{maintitle}</h2>
-              <h1 className='text-gray-900 text-2xl md:text-4xl mt-4 font-bold tracking-wide mb-4'>
+              <h1 className='text-gray-900  text-2xl md:text-4xl mt-4 font-bold tracking-wide mb-4'>
                 {maincontent}
               </h1>
-              <h5 className='text-xl '>{maindesc}</h5>
+              <h5 className='text-xl line-clamp-2 '>{maindesc}</h5>
               <div className='mt-6 flex'>
               <Image 
                 src={`/authors/${author}.jpg`} 
@@ -74,7 +75,7 @@ const Blogs = ({
   />
                 <div>
                 <p className='text-black font-medium mt-1 ml-4 text-lg md:text-xl'>{author}</p>
-                <p className='text-gray-500 ml-4 mt-1 text-lg md:text-base'>{days}</p>
+                <p className='text-gray-500 ml-4 mt-1 text-lg md:text-base'><CreationDate articleNumber={days}/> </p>
                 </div>
               </div>
             </div>

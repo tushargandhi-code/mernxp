@@ -25,7 +25,7 @@ const Footer = () => {
 
 
     <div className="lg:w-1/4 md:w-1/2 w-full ml-0 md:ml-48 mx-auto md:mx-0 text-center md:text-left ">
-      <h2 className='text-xl -mt-7 mb-2 sm:text-white sm:font-bold font-bold'>CATEGORIES</h2>
+      <h2 className='text-xl -mt-7 mb-2 md:mr-2  text-white sm:text-white sm:font-bold font-bold'>CATEGORIES</h2>
         <nav className="list-none mb-10">
           <li>
           <Link href='/local' className="text-white text-md  hover:underline hover:cursor-pointer">Local</Link>
@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
 
       <div className="lg:w-1/4 md:w-1/2  w-full px-4">
-         <h2 className='text-xl -mt-7 mb-2 sm:text-white sm:font-bold font-bold'>QUICK LINKS</h2>
+         <h2 className='text-xl -mt-7 mb-2 text-white sm:text-white sm:font-bold font-bold'>QUICK LINKS</h2>
         <nav className="list-none mb-10">
          
           <li>
@@ -63,7 +63,7 @@ const Footer = () => {
       
       
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-      <h2 className='text-xl -mt-7 mb-2 sm:text-white sm:font-bold font-bold'>LEGAL</h2>
+      <h2 className='text-xl -mt-7 mb-2 text-white sm:text-white sm:font-bold font-bold'>LEGAL</h2>
         <nav className="list-none mb-10">
           <li>
           <Link href='/Terms' className="text-white text-md hover:underline hover:cursor-pointer">Terms And Conditions</Link>
