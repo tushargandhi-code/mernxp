@@ -25,7 +25,7 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading , articleNumber}) => {
             
             title="Post"
           />
-          <h4 className="mt-3 text-xl sm:text-2 text-left text-black lg:w-[260px] md:w-[280px]  p-2 font-bold title-font mb-4">
+          <h4 className="mt-3 text-xl sm:text-2  text-left text-black lg:w-[260px] md:w-[280px]  p-2 font-bold title-font mb-4">
             {pheading}
           </h4>
           <p className="text-gray-500 text-left text-sm p-2"> <CreationDate articleNumber={articleNumber}/></p>

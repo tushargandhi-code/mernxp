@@ -1,23 +1,14 @@
 "use client"
 import React from 'react'
 import Slider from '../components/Slider'
-
 import Blogs from '../components/Blogs'
 import Posts from '../components/Posts'
 import Footer from '../components/Footer'
-
-
-
 import entertainment from '@/constants/entertainment'
 import money from '@/constants/money'
 import politics from '@/constants/politics'
 import usNews from '@/constants/usnews'
-
-
 import Link from "next/link";
-
-
-
 
 const page = () => {
 
@@ -42,7 +33,7 @@ const page = () => {
 <div className="max-w-7xl mx-auto lg:p-4">
 
 
-<div className='mt-10'>
+<div className='pt-10'>
 {/* <Link href="/post/The-Art-of-Layering-Mastering-Seasonal-Fashion-with-Essentials">
 <Blogs title = "politics" mainimg='/articles/Blogheraid50.jpg'
  maintitle='POLITICS' maincontent='The Art of Layering: Mastering Seasonal Fashion with Essentials'
@@ -87,7 +78,7 @@ const page = () => {
 </div>
 </div>
 
-<div className='mt-10'>
+<div className='mt-10 '>
 {money.slice(0,1).map((post,index) => (
   <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
     <Blogs

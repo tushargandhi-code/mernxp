@@ -10,16 +10,16 @@ import Link from 'next/link';
 
 const slides = [
   {
-    image: '/articles/Blogheraid1.jpg',
-    title: 'The Best Side Hustles to Make Extra Money in Your Spare Time',
+    image: '/articles/1048.jpg',
+    title: 'A Complete Guide to Choosing the Right Insurance Policy for Your Needs',
   },
   {
-    image: '/articles/Blogheraid4.jpg',
-    title: 'Turning Your Hobby into a Side Hustle: A Step-by-Step Guide',
+    image: '/articles/moneymorning22.jpg',
+    title: 'How Inflation Affects Your Savings and Investments',
   },
   {
-    image: '/articles/Blogheraid7.jpg',
-    title: 'The Most Lucrative Side Hustles with Low Startup Costs',
+    image: '/articles/1047.jpg',
+    title: 'Top 10 Financial Tips for Building Wealth in the US',
   },
 ];
 
@@ -63,10 +63,10 @@ const Slider = () => {
             <Link
               href={
                 index === 0
-                  ? '/post/The-Best-Side-Hustles-to-Make-Extra-Money-in-Your-Spare-Time'
+                  ? '/post/A-Complete-Guide-to-Choosing-the-Right-Insurance-Policy-for-Your-Needs'
                   : index === 1
-                  ? '/post/Turning-Your-Hobby-into-a-Side-Hustle-A-Step-by-Step-Guide'
-                  : '/post/The-Most-Lucrative-Side-Hustles-with-Low-Startup-Costs'
+                  ? '/post/How-Inflation-Affects-Your-Savings-and-Investments'
+                  : '/post/Top-10-Financial-Tips-for-Building-Wealth-in-the-US'
               }
               className="block relative w-full h-full"
             >
