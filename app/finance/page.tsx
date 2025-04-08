@@ -7,9 +7,10 @@ import Blogs from '../../components/Blogs';
 import Image from 'next/image';
 import money from '@/constants/money';
 import Link from 'next/link';
+import Breadcrumb from '@/components/Breadcrumb';
 
 const Money = () => {
-  const [visiblePosts, setVisiblePosts] = useState(8); // Show 4 initially
+  const [visiblePosts, setVisiblePosts] = useState(12); // Show 4 initially
 
   const loadMore = () => {
     setVisiblePosts((prev) => prev + 4); // Load 4 more on each click
@@ -19,8 +20,12 @@ const Money = () => {
     <>
       <div className='bg-gray-200'>
         <div className='mt-20 pt-8 text-black text-center  flex flex-col justify-center'>
+
+        <div className="max-w-7xl text-black  px-42">
+       <Breadcrumb />
+        </div>
           <p className='text-2xl max-w-6xl text-left hidden lg:block mx-auto mt-2'>
-            Money is the medium used by people to buy required goods and services. It is used as the source to fulfill basic needs and is also a source of comfort in life. Money is the most important source to live a healthy and prosperous life; however, it cannot be compared with the significance of love and care. Both have their own importance and benefits. Nevertheless, money is a useful and necessary commodity to live.
+            Finance is the medium used by people to buy required goods and services. It is used as the source to fulfill basic needs and is also a source of comfort in life. Money is the most important source to live a healthy and prosperous life; however, it cannot be compared with the significance of love and care. Both have their own importance and benefits. Nevertheless, money is a useful and necessary commodity to live.
           </p>
 
 

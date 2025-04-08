@@ -6,7 +6,7 @@
     title: `Retirement Planning: Steps to Secure Your Future`,
     imgUrl: `1105.jpg`,
     authorName: `James Carter`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Planning for retirement is crucial to ensuring that you can enjoy your later years without financial stress. While it might seem far off, the earlier you begin, the more time your investments have to grow. Understanding the steps involved in retirement planning is key to building a secure financial future.`,
@@ -64,7 +64,7 @@
     title: `The Role of Financial Advisors in Wealth Management`,
     imgUrl: `1106.jpg`,
     authorName: `Rahul Sharma`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Financial advisors play a critical role in wealth management by helping individuals and families make informed decisions about their money, investments, and long-term financial goals. Whether you're looking to build wealth, plan for retirement, or navigate complex financial decisions, financial advisors bring expertise and a personalized approach to managing your finances.`,
@@ -149,7 +149,7 @@
     title: `How to Build and Improve Your Credit Score`,
     imgUrl: `1107.jpg`,
     authorName: `Anita Singh`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Building and improving your credit score is essential for securing favorable loan terms, lower interest rates, and better financial opportunities. A good credit score can also help you in securing jobs and housing. Here's a guide on how to improve and maintain your credit score for a healthier financial future.`,
@@ -214,7 +214,7 @@
     title: `The Impact of Inflation on Personal Finances`,
     imgUrl: `1109.jpg`,
     authorName: `Samantha Lee`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Inflation is a key economic factor that affects personal finances in a variety of ways. As the cost of goods and services rises, it can erode purchasing power and impact savings, investments, and overall financial stability. Understanding how inflation works and taking steps to mitigate its effects can help you protect your financial well-being.`,
@@ -265,7 +265,7 @@
     title: `Budgeting for Beginners: How to Start and Stick to It`,
     imgUrl: `1110.jpg`,
     authorName: `James Carter`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Budgeting is a fundamental tool for managing your finances and ensuring that you're living within your means. Whether you're saving for a major purchase, paying off debt, or simply looking to gain control over your spending, creating and sticking to a budget is the first step toward achieving your financial goals.`,
@@ -347,7 +347,7 @@
     title: `Understanding the Stock Market: A Guide for New Investors`,
     imgUrl: `1111.jpg`,
     authorName: `Rahul Sharma`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `The stock market can be a complex and intimidating place, especially for new investors. However, understanding the basics of how the market works can help you make informed decisions and start building wealth. In this guide, we’ll explore key concepts and strategies to help you navigate the stock market with confidence.`,
@@ -426,7 +426,7 @@
     title: `Real Estate vs. Stocks: Which Investment is Better?`,
     imgUrl: `1112.jpg`,
     authorName: `Anita Singh`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `When it comes to building wealth, two of the most popular investment options are real estate and stocks. Both offer distinct advantages, but choosing between them depends on your financial goals, risk tolerance, and investment timeline. In this article, we'll compare the benefits and drawbacks of each to help you decide which investment is better suited for your needs.`,
@@ -504,7 +504,7 @@
     title: `How to Save Money on Taxes: Tips for Individuals and Businesses`,
     imgUrl: `1113.jpg`,
     authorName: `James Carter`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Saving money on taxes is a priority for many individuals and businesses. Whether you're a small business owner, a freelancer, or someone simply looking to reduce your tax liability, there are various strategies you can implement to keep more of your hard-earned money. In this article, we’ll explore several tips for both individuals and businesses to help minimize tax payments.`,
@@ -583,7 +583,7 @@
     title: `The Rise of Fintech: How Technology is Changing Finance`,
     imgUrl: `1114.jpg`,
     authorName: `Samantha Lee`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `The financial industry is undergoing a major transformation due to technological advancements. The rise of fintech (financial technology) has reshaped how individuals and businesses manage money, invest, and make payments. From mobile banking apps to blockchain technology, fintech has made financial services more accessible, efficient, and secure. In this article, we’ll explore how fintech is changing the finance landscape and what it means for the future of personal and business finance.`,
@@ -668,7 +668,7 @@
     title: `Emergency Funds: Why They’re Essential and How to Build One`,
     imgUrl: `1115.jpg`,
     authorName: `Rahul Sharma`,
-    section:"usNews",
+    section:"stock",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `An emergency fund is a crucial aspect of financial planning, providing a safety net for unexpected situations such as medical emergencies, car repairs, or sudden job loss. Having a well-established emergency fund can reduce stress and prevent you from going into debt when life’s unexpected events occur. In this article, we’ll explore why emergency funds are essential and how you can start building one today.`,
@@ -738,7 +738,7 @@
   title: `Latest Trends Shaping the U.S. Stock Market in 2025`,
   imgUrl: `moneymorning11.jpg`,  
   authorName: `James Carter`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The U.S. stock market is evolving rapidly, with new trends shaping investor strategies and market movements. Understanding these trends can help investors make informed decisions in 2025.`,
@@ -785,7 +785,7 @@
   title: `Top Gainers and Losers on Wall Street This Month`,
   imgUrl: `moneymorning12.jpg`,  
   authorName: `Rajat Sen`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The stock market is constantly shifting, with certain stocks outperforming while others struggle. This month, Wall Street has seen significant movements in both directions. Here’s a look at the top gainers and losers.`,
@@ -828,7 +828,7 @@
   title: `How Federal Reserve Decisions Are Impacting U.S. Stocks`,
   imgUrl: `moneymorning13.jpg`,  
   authorName: `Samantha Lee`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The Federal Reserve plays a crucial role in shaping the U.S. stock market. Interest rate adjustments, monetary policy shifts, and economic outlooks set by the Fed significantly influence market trends and investor sentiment.`,
@@ -871,7 +871,7 @@
   title: `Tech Stocks to Watch: Are We in Another Boom?`,
   imgUrl: `moneymorning14.jpg`,  
   authorName: `Rahul Sharma`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The technology sector has been a driving force in the stock market, and recent trends suggest another potential boom. With advancements in artificial intelligence, cloud computing, and semiconductor innovation, investors are eyeing key tech stocks for future growth.`,
@@ -912,7 +912,7 @@
   title: `Market Volatility: Should Investors Be Concerned?`,
   imgUrl: `moneymorning15.jpg`,  
   authorName: `Anita Singh`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Market volatility is a common concern for investors, especially in uncertain economic conditions. While fluctuations in stock prices can be unsettling, understanding the factors behind market swings can help investors navigate uncertain times with confidence.`,
@@ -945,7 +945,7 @@
   title: `U.S. Stock Market Outlook: What to Expect in 2025`,
   imgUrl: `moneymorning41.jpg`,  
   authorName: `James Carter`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `As we move into 2025, investors are looking for insights into the U.S. stock market's potential trajectory. Market trends, economic policies, and global events will all play crucial roles in shaping investment opportunities.`,
@@ -983,7 +983,7 @@
   title: `Top Performing Stocks on Wall Street This Quarter`,
   imgUrl: `moneymorning42.jpg`,  
   authorName: `Samantha Lee`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The latest quarter on Wall Street has seen significant movements, with some stocks outperforming expectations while others struggled to keep up. Understanding these trends can help investors make informed decisions moving forward.`,
@@ -1021,7 +1021,7 @@
   title: `The Impact of Federal Reserve Policies on the Stock Market`,
   imgUrl: `moneymorning43.jpg`,  
   authorName: `Rajat Sen`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Federal Reserve policies play a crucial role in shaping the stock market. Interest rate decisions, quantitative easing, and regulatory measures directly impact investor sentiment and market performance. Understanding these effects can help traders and long-term investors navigate the evolving financial landscape.`,
@@ -1059,7 +1059,7 @@
   title: `Why Tech Stocks Are Leading the Market Again`,
   imgUrl: `moneymorning44.jpg`,  
   authorName: `Samantha Lee`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Tech stocks are once again at the forefront of the market, driven by innovation, strong earnings, and investor optimism. As companies in the sector continue to expand their influence, understanding the reasons behind this surge can help investors make informed decisions.`,
@@ -1098,7 +1098,7 @@
   title: `S&P 500 vs. Nasdaq: Where Should You Invest?`,
   imgUrl: `moneymorning45.jpg`,  
   authorName: `Anita Singh`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Investors often compare the S&P 500 and the Nasdaq when deciding where to allocate their funds. Understanding the differences between these indices can help you make a strategic investment choice based on your risk tolerance and financial goals.`,
@@ -1131,7 +1131,7 @@
   title: `AI and Automation: The Next Big Disruptors in the Stock Market`,
   imgUrl: `moneymorning46.jpg`,  
   authorName: `Rahul Sharma`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Artificial intelligence and automation are transforming industries, and the stock market is no exception. These technologies are reshaping investment strategies, trading mechanisms, and market dynamics at an unprecedented pace.`,
@@ -1163,7 +1163,7 @@
   title: `How Geopolitical Events Affect U.S. Stock Performance`,
   imgUrl: `moneymorning47.jpg`,  
   authorName: `James Carter`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Geopolitical events have a significant impact on the U.S. stock market, influencing investor sentiment, market volatility, and sector performance. Understanding these effects can help investors navigate uncertainty and make informed decisions.`,
@@ -1199,7 +1199,7 @@
   title: `Dividend Stocks vs. Growth Stocks: Where’s the Best Opportunity?`,
   imgUrl: `moneymorning48.jpg`,  
   authorName: `Rajat Sen`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Investors often face a crucial decision when building their portfolios: Should they invest in dividend stocks for stability or growth stocks for higher returns? Understanding the differences can help in making the right choice based on financial goals and risk tolerance.`,
@@ -1231,7 +1231,7 @@
   title: `Meme Stocks: Are They Making a Biggest Comeback?`,
   imgUrl: `moneymorning49.jpg`,  
   authorName: `Anita Singh`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Meme stocks took the financial world by storm in recent years, driven by online communities and retail investors. As market conditions shift, many wonder if these stocks are making a comeback.`,
@@ -1265,7 +1265,7 @@
   title: `Stock Buybacks: How They Influence Share Prices`,
   imgUrl: `moneymorning50.jpg`,  
   authorName: `Samantha Lee`,
-  section:"usNews",
+  section:"stock",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Stock buybacks have become a common strategy for companies looking to boost share prices and reward investors. Understanding their impact can help investors make informed decisions.`,

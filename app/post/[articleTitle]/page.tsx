@@ -4,6 +4,7 @@ import Posts from "@/components/Posts";
 import Link from "next/link";
 import allArticles from "@/constants/all";
 import CreationDate from "@/components/Date";
+// import Breadcrumb from '@/components/Breadcrumb';
 
 const formatTitle = (title: string) => title.replace(/[^A-Za-z0-9]+/g, "-");
 
@@ -30,6 +31,9 @@ const PostPage = async ({
     <>
       <div className="bg-gray-200">
         <div className="text-black mt-20 bg-gray-200 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 py-6">
+        {/* <div className="max-w-7xl text-black  px-42">
+       <Breadcrumb />
+        </div> */}
           <h1 className="text-3xl lg:mx-40 sm:text-4xl lg:text-5xl font-bold mb-6">
             {article.title}
           </h1>
@@ -57,8 +61,8 @@ const PostPage = async ({
     </p>
   </div>
 
-  <div className="flex">
-    <p className="text-sm sm:text-md text-gray-500">
+  <div className="  flex ml-14 lg:ml-0 justify-end ">
+    <p className="text-sm sm:text-md ml-auto text-gray-500">
       Read Time: {article.readTime}
     </p>
   </div>
@@ -118,7 +122,7 @@ const PostPage = async ({
                   href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`}
                   passHref
                 >
-                  <div className="bg-grey-200 w-[330px]">
+                  <div className="bg-grey-200  w-[330px]">
                     <Posts
                       pimg={`/articles/${post.imgUrl}`}
                       pheading={post.title}

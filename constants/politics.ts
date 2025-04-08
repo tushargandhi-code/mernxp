@@ -5,7 +5,7 @@
     title: `How to Get an Instant Loan Up to 10 Lakhs Without CIBIL Score and Online Verification`,
     imgUrl: `1029.jpg`, 
     authorName: `James Carter`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (6 - 4 + 1)) + 4} min read`,
     contents: [
       `***Ever wondered how people with no CIBIL score or employment verification are getting instant loans?`,
@@ -62,7 +62,7 @@
     title: `How to Become a Millionaire with These Simple Investing Tips!`,
     imgUrl: `1030.jpg`,
     authorName: `Rajat Sen`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Becoming a millionaire may seem like a daunting goal, but with the right strategies, it's an achievable reality for many. The key lies in smart financial planning, disciplined saving, and effective investing. In this article, we'll explore simple yet effective investing tips that can set you on the path to financial freedom.`,
@@ -121,7 +121,7 @@
     title: `5 Secret Credit Card Tricks Banks Don’t Want You to Know`,
     imgUrl: `1031.jpg`,
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Credit cards can be a double-edged sword, offering convenience and rewards while also leading to potential debt if not managed wisely. Many people are unaware of the hidden tricks and tactics that credit card companies use to maximize their profits. In this article, we’ll uncover five essential tricks that banks don’t want you to know, enabling you to take control of your finances and make the most of your credit cards.`,
@@ -178,7 +178,7 @@
     title: `Why You Should Stop Saving and Start Investing Today!`,
     imgUrl: `1032.jpg`,
     authorName: `Anita Singh`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `In a world where economic uncertainties and inflation persist, the age-old advice of simply saving money may not be sufficient for achieving financial security and growth. While having a savings cushion is vital, shifting focus to investing can significantly enhance your wealth over time. Here’s why you should consider making this change today.`,
@@ -237,7 +237,7 @@
     title: `The 3 Stocks Every Beginner Should Buy in 2024!`,
     imgUrl: `1033.jpg`,
     authorName: `James Carter`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Entering the stock market can be daunting for beginners. However, with the right guidance and a focus on solid investment options, you can start building a portfolio that grows over time. In 2024, certain stocks stand out as excellent choices for novice investors due to their stability, growth potential, and market performance.`,
@@ -289,7 +289,7 @@
     title: `How I Paid Off $50,000 Debt in Just 12 Months – You Can Too!`,
     imgUrl: `1034.jpg`,
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Debt can feel like a dark cloud looming over your finances, but it’s possible to turn things around. I paid off $50,000 in debt within a year, and I’m here to share the strategies that helped me achieve this goal. Whether you’re facing student loans, credit card debt, or any other financial burden, the steps I took can help you reclaim your financial freedom.`,
@@ -360,7 +360,7 @@
     title: `How to Turn $100 Into $10,000 With This Little-Known Investment Strategy`,
     imgUrl: `1035.jpg`,
     authorName: `Rajat Sen`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Investing can often seem daunting, especially when starting with a small amount like $100. However, with the right strategies and mindset, it is entirely possible to multiply your initial investment significantly. Below are various methods and investment opportunities that can help you turn that $100 into $10,000 over time.`,
@@ -434,7 +434,7 @@
     title: `Buy Bitcoin with Ease: The Ultimate Guide to Using Prepaid Cards!`,
     imgUrl: `1036.jpg`,
     authorName: `Samantha Lee`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `In recent years, Bitcoin has surged in popularity, becoming a significant player in the financial world. One of the easiest and most secure ways to purchase Bitcoin is through prepaid cards. This method offers a straightforward approach for both beginners and seasoned crypto enthusiasts looking to acquire Bitcoin without the complexities of traditional banking systems.`,
@@ -562,7 +562,7 @@
     title: `Top 10 Financial Tips for Building Wealth in the US`,
     imgUrl: `1047.jpg`,
     authorName: `Anita Singh`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Building wealth is a goal many aspire to, and while there is no single path to financial freedom, there are proven strategies that can help you get there. From budgeting basics to smart investments, here are the top 10 tips to grow your wealth in the US.`,
@@ -691,7 +691,7 @@
     title: `A Complete Guide to Choosing the Right Insurance Policy for Your Needs`,
     imgUrl: `1048.jpg`,
     authorName: `James Carter`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Choosing the right insurance policy can be challenging, but it’s essential for financial security. From health and life to auto and home insurance, this guide will help you understand what to consider.`,
@@ -769,7 +769,7 @@
     title: `Understanding the US Banking System: How It Works and Why It Matters`,
     imgUrl: `1049.jpg`,
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (6 - 3 + 1)) + 3} min read`,
     contents: [
         `The US banking system is a cornerstone of the country's economy, affecting every aspect of financial life. This guide explains how it works and its importance for consumers.`,
@@ -842,7 +842,7 @@
     title: `ETFs vs. Mutual Funds: Which is Better for Your Portfolio?`,
     imgUrl: `moneymorning6.jpg`,  
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Choosing between ETFs (Exchange-Traded Funds) and Mutual Funds is a common dilemma for investors. Both offer diversified investment options, but understanding their differences can help you make a smarter financial decision.`,
@@ -883,7 +883,7 @@
     title: `Top Performing ETFs in the U.S. for 2025`,
     imgUrl: `moneymorning7.jpg`,  
     authorName: `Rajat Sen`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `ETFs (Exchange-Traded Funds) continue to be a popular investment choice, offering diversification and liquidity. As 2025 unfolds, some ETFs are emerging as top performers, driven by market trends and economic shifts.`,
@@ -922,7 +922,7 @@
     title: `How to Choose the Right Mutual Fund for Your Financial Goals`,
     imgUrl: `moneymorning8.jpg`,  
     authorName: `James Carter`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Mutual funds offer investors a diversified way to grow wealth, but choosing the right one depends on individual financial goals. Understanding different fund types and risk levels is key to making an informed decision.`,
@@ -968,7 +968,7 @@
     title: `Tax Implications of Investing in ETFs and Mutual Funds`,
     imgUrl: `moneymorning9.jpg`,  
     authorName: `Anita Singh`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Investing in ETFs and mutual funds can generate wealth, but understanding the tax implications is essential for maximizing returns. Different tax treatments apply depending on how and where you invest.`,
@@ -1013,7 +1013,7 @@
     title: `Passive vs. Active Investing: What Works Best in the U.S. Market?`,
     imgUrl: `moneymorning10.jpg`,  
     authorName: `Samantha Lee`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Investors often debate whether passive or active investing is the better strategy. Each approach has its benefits and drawbacks, and the best choice depends on financial goals, risk tolerance, and market conditions.`,
@@ -1051,7 +1051,7 @@
     title: `ETFs vs. Mutual Funds: Which is Right for You?`,
     imgUrl: `moneymorning31.jpg`,  
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Investors often debate whether to choose Exchange-Traded Funds (ETFs) or Mutual Funds for their portfolios. Understanding the key differences and benefits of each can help you make the right decision based on your financial goals and risk tolerance.`,
@@ -1097,7 +1097,7 @@
     title: `Best U.S. ETFs for Long-Term Investors in 2025`,
     imgUrl: `moneymorning32.jpg`,  
     authorName: `Rajat Sen`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Investing in ETFs is a popular strategy for long-term investors seeking growth, stability, and diversification. With numerous options available, selecting the right ETFs for 2025 can be crucial for financial success.`,
@@ -1143,7 +1143,7 @@
     title: `How to Build a Diversified Portfolio Using ETFs and Mutual Funds`,
     imgUrl: `moneymorning33.jpg`,  
     authorName: `James Carter`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Building a diversified portfolio is essential for managing risk and maximizing returns. Using a combination of ETFs and mutual funds can help investors achieve balance and long-term growth in their investments.`,
@@ -1195,7 +1195,7 @@
     title: `Index Funds vs. Actively Managed Mutual Funds: Pros and Cons`,
     imgUrl: `moneymorning34.jpg`,  
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Investors often debate between index funds and actively managed mutual funds. Each has distinct advantages and drawbacks depending on an investor’s financial goals and risk tolerance. Understanding the pros and cons of each can help in making informed investment decisions.`,
@@ -1247,7 +1247,7 @@
     title: `Sector-Specific ETFs: Are They Worth the Investment?`,
     imgUrl: `moneymorning35.jpg`,  
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Sector-specific ETFs allow investors to focus on particular industries, such as technology, healthcare, or energy. These funds can offer significant growth potential but also come with unique risks. Understanding their pros and cons can help determine if they are the right investment for you.`,
@@ -1289,7 +1289,7 @@
     title: `Mutual Fund Fees Explained: How to Avoid Hidden Costs`,
     imgUrl: `moneymorning36.jpg`,  
     authorName: `Samantha Lee`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Mutual funds are a popular investment choice, but many investors are unaware of the various fees that can impact their returns. Understanding these costs can help you make smarter financial decisions and avoid hidden expenses.`,
@@ -1332,7 +1332,7 @@
     title: `The Rise of ESG Investing: Best Sustainable ETFs`,
     imgUrl: `moneymorning37.jpg`,  
     authorName: `Rajat Sen`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `ESG (Environmental, Social, and Governance) investing is gaining popularity as investors seek financial returns while supporting sustainable and ethical business practices. Understanding the best ESG-focused ETFs and mutual funds can help align investments with personal values.`,
@@ -1376,7 +1376,7 @@
     title: `How Interest Rates Impact ETF and Mutual Fund Performance`,
     imgUrl: `moneymorning38.jpg`,  
     authorName: `James Carter`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Interest rates play a crucial role in the performance of ETFs and mutual funds. Understanding how rising or falling rates impact these investments can help investors make informed decisions in varying market conditions.`,
@@ -1417,7 +1417,7 @@
     title: `Best Bond ETFs and Mutual Funds for a Stable Portfolio`,
     imgUrl: `moneymorning39.jpg`,  
     authorName: `Anita Singh`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Building a stable investment portfolio requires selecting the right bond ETFs and mutual funds. These investments offer steady income and lower volatility, making them ideal for conservative investors and those seeking capital preservation.`,
@@ -1456,10 +1456,10 @@
   
   
   {
-    title: `401(k) and IRA: How ETFs and Mutual Funds Fit Into Retirement Planning`,
+    title: `401(k) and IRA: How ETFs and Mutual Funds Fit Into Retirement`,
     imgUrl: `moneymorning40.jpg`,  
     authorName: `Rahul Sharma`,
-    section: "politics",
+    section: "etfs",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
       `Planning for retirement requires selecting the right investment vehicles, and ETFs and mutual funds play a crucial role in both 401(k) and IRA accounts. These options provide diversification, professional management, and potential long-term growth.`,
@@ -1492,7 +1492,7 @@
 ].reverse()
 .map((article, i) => ({
 ...article,
-category: `politics`,
+category: `etfs`,
 articleNumber: i + 1,
 }));
 

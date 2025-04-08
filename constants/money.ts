@@ -5,7 +5,7 @@
     title: `5 Key Differences Between Personal and Business Loans`,
     imgUrl: `1050.jpg`,
     authorName: `Anita Singh`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Understanding the differences between personal and business loans is essential for choosing the right financing option. Here are five key distinctions to keep in mind.`,
@@ -83,7 +83,7 @@
     title: `How to Improve Your Credit Score: Essential Tips for US Borrowers`,
     imgUrl: `1051.jpg`,
     authorName: `Samantha Lee`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Improving your credit score can open doors to better interest rates and financial opportunities. Here are some key tips to boost your score effectively.`,
@@ -158,7 +158,7 @@
     title: `Exploring the Best Loan Options for First-Time Homebuyers`,
     imgUrl: `1052.jpg`,
     authorName: `James Carter`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `For first-time homebuyers, choosing the right loan can be overwhelming. Here’s a guide to the best options for making your homeownership dream a reality.`,
@@ -236,7 +236,7 @@
     title: `Top 5 US Banks with the Best Customer Service in 2024`,
     imgUrl: `1053.jpg`,
     authorName: `Rahul Sharma`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Customer service plays a significant role in banking. Here are the top five US banks known for providing the best customer service in 2024.`,
@@ -314,7 +314,7 @@
     title: `Car Insurance in the US: What You Need to Know Before You Buy`,
     imgUrl: `1054.jpg`,
     authorName: `Anita Singh`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Buying car insurance in the US can be confusing, especially with so many options. Here’s what you need to know before making a purchase decision.`,
@@ -391,7 +391,7 @@
     title: `Personal Loan vs. Credit Card: Which is Better for Debt Consolidation?`,
     imgUrl: `1055.jpg`,
     authorName: `James Carter`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `When it comes to debt consolidation, both personal loans and credit cards can be useful. Here’s a guide to help you decide which option might be better for your needs.`,
@@ -466,7 +466,7 @@
     title: `How to Save on Health Insurance Costs: Tips for Families and Individuals`,
     imgUrl: `1056.jpg`,
     authorName: `Samantha Lee`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Health insurance can be a significant expense, but there are ways to reduce costs while still receiving quality care. Here are tips for saving on health insurance for individuals and families alike.`,
@@ -543,7 +543,7 @@
     title: `Exploring the Best Loan Options for First-Time Homebuyers`,
     imgUrl: `1057.jpg`,
     authorName: `Rahul Sharma`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Buying a home for the first time can be overwhelming, but understanding your loan options can help. Here’s a guide to popular mortgage options for first-time homebuyers.`,
@@ -613,7 +613,7 @@
     title: `Top Financial Planning Tips for 2024`,
     imgUrl: `1100.jpg`,
     authorName: `Anita Singh`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `As we head into 2024, financial planning remains as crucial as ever. Whether you’re looking to boost savings, make smart investments, or prepare for retirement, having a solid financial plan is essential. Here are some practical tips to help you navigate the financial landscape in the year ahead.`,
@@ -668,7 +668,7 @@
     title: `How to Build Wealth: Investing for Beginners`,
     imgUrl: `1101.jpg`,
     authorName: `James Carter`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Building wealth is a journey that requires a strategic approach, especially if you’re new to investing. With the right guidance, you can start growing your wealth and achieve your financial goals over time. Here’s a beginner-friendly guide to help you get started with investing.`,
@@ -711,7 +711,7 @@
     title: `The Importance of Diversifying Your Investment Portfolio`,
     imgUrl: `1102.jpg`,
     authorName: `Rahul Sharma`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Diversification is a key strategy in building a resilient investment portfolio. By spreading investments across different asset types, you can reduce risk and enhance potential returns over time. Let’s explore why diversification is essential and how you can start implementing it in your own portfolio.`,
@@ -759,7 +759,7 @@
     title: `Personal Finance 101: Essential Skills for Managing Money`,
     imgUrl: `1103.jpg`,
     authorName: `Samantha Lee`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Personal finance management is a critical skill for achieving financial security and independence. Learning to manage money effectively allows you to build savings, control debt, and prepare for unexpected expenses. Here’s a comprehensive guide on the essential skills every individual should master to manage their finances confidently.`,
@@ -818,7 +818,7 @@
     title: `Understanding Cryptocurrency: Is it a Good Investment?`,
     imgUrl: `1104.jpg`,
     authorName: `Anita Singh`,
-    section: "money",
+    section: "finance",
     readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
     contents: [
         `Cryptocurrency has emerged as a popular and sometimes volatile investment option in recent years. While it offers potential high returns, the risks involved are significant. If you're considering cryptocurrency as part of your investment portfolio, it's important to understand how it works, its potential for growth, and the challenges it presents.`,
@@ -865,7 +865,7 @@
   title: `Understanding the U.S. Financial System: A Complete Guide`,
   imgUrl: `moneymorning1.jpg`,  
   authorName: `Samantha Lee`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The U.S. financial system plays a crucial role in the economy, connecting individuals, businesses, and governments through a network of financial institutions, markets, and regulations. Understanding its components is key to making informed financial decisions.`,
@@ -905,7 +905,7 @@
   title: `How to Build Wealth in America: Smart Financial Strategies`,
   imgUrl: `moneymorning2.jpg`,  
   authorName: `Rajat Sen`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Building wealth in America requires a combination of smart financial planning, disciplined saving, and strategic investing. By understanding key principles, individuals can create long-term financial stability and success.`,
@@ -950,7 +950,7 @@
   title: `The Impact of Federal Reserve Policies on Your Money`,
   imgUrl: `moneymorning3.jpg`,  
   authorName: `Anita Singh`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The Federal Reserve plays a vital role in shaping the U.S. economy. Its policies influence interest rates, inflation, and overall financial stability, directly affecting individuals, businesses, and investors alike. Understanding how these policies impact your money is essential for making informed financial decisions.`,
@@ -992,7 +992,7 @@
   title: `Top Investment Opportunities in the U.S. for 2025`,
   imgUrl: `moneymorning4.jpg`,  
   authorName: `James Carter`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The U.S. investment landscape is evolving rapidly, offering new opportunities across various sectors. As 2025 approaches, investors can explore emerging trends and strategic investments to maximize their financial growth.`,
@@ -1031,7 +1031,7 @@
   title: `Managing Debt in the USA: Tips for Financial Freedom`,
   imgUrl: `moneymorning5.jpg`,  
   authorName: `James Carter`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Debt can be a major financial burden, but with the right strategies, you can regain control and achieve financial freedom. Understanding how to manage and reduce debt effectively is key to long-term financial stability.`,
@@ -1063,7 +1063,7 @@
   title: `The Future of Banking in the U.S.: Digital vs. Traditional`,
   imgUrl: `moneymorning21.jpg`,  
   authorName: `Anita Singh`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `The U.S. banking industry is undergoing a major transformation with the rise of digital banking. Traditional banks face increasing competition from online financial institutions, leading to a shift in how consumers manage their money.`,
@@ -1106,7 +1106,7 @@
   title: `How Inflation Affects Your Savings and Investments`,
   imgUrl: `moneymorning22.jpg`,  
   authorName: `Rajat Sen`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Inflation erodes the purchasing power of money, making it a crucial factor for savers and investors. Understanding how inflation impacts savings and investments can help you make informed financial decisions.`,
@@ -1148,7 +1148,7 @@
   title: `Retirement Planning: Best Strategies for Americans`,
   imgUrl: `moneymorning23.jpg`,  
   authorName: `Samantha Lee`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Planning for retirement is essential to ensure financial security in later years. By adopting smart strategies, Americans can build a comfortable nest egg and enjoy financial independence.`,
@@ -1195,7 +1195,7 @@
   title: `Understanding Credit Scores: How to Improve Yours`,
   imgUrl: `moneymorning24.jpg`,  
   authorName: `James Carter`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Your credit score plays a crucial role in financial health, affecting loan approvals, interest rates, and even job opportunities. Understanding how credit scores work and how to improve them can lead to better financial stability.`,
@@ -1238,7 +1238,7 @@
   title: `The Impact of Interest Rate Changes on Loans and Mortgages`,
   imgUrl: `moneymorning25.jpg`,  
   authorName: `Anita Singh`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Interest rates play a crucial role in determining the cost of borrowing money for loans and mortgages. Changes in interest rates can significantly impact monthly payments, affordability, and long-term financial planning.`,
@@ -1279,7 +1279,7 @@
   title: `Personal Finance Tips for Managing Debt in the U.S.`,
   imgUrl: `moneymorning26.jpg`,  
   authorName: `James Carter`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Managing debt effectively is crucial for financial stability. By implementing smart strategies, individuals can reduce their financial burden and work toward a debt-free future.`,
@@ -1331,7 +1331,7 @@
   title: `Best High-Yield Savings Accounts in the United States`,
   imgUrl: `moneymorning27.jpg`,  
   authorName: `Rajat Sen`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `High-yield savings accounts offer a great way to grow your money with competitive interest rates while maintaining easy access to your funds. Choosing the right account can help maximize your savings potential.`,
@@ -1371,7 +1371,7 @@
   title: `How to Build a Strong Investment Portfolio in the U.S.`,
   imgUrl: `moneymorning28.jpg`,  
   authorName: `James Carter`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Building a strong investment portfolio requires strategic planning, diversification, and a clear understanding of financial goals. A well-structured portfolio helps manage risk while maximizing returns over time.`,
@@ -1416,7 +1416,7 @@
   title: `The Role of Cryptocurrencies in the American Financial`,
   imgUrl: `moneymorning29.jpg`,  
   authorName: `Samantha Lee`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Cryptocurrencies have become an integral part of the American financial system, influencing investment strategies, payment solutions, and regulatory policies. As digital assets gain mainstream acceptance, their impact continues to grow.`,
@@ -1463,7 +1463,7 @@
   title: `Government Policies and Their Effect on Personal Finances`,
   imgUrl: `moneymorning30.jpg`,  
   authorName: `Anita Singh`,
-  section: "money",
+  section: "finance",
   readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
   contents: [
     `Government policies play a crucial role in shaping personal finances, influencing everything from taxes and interest rates to employment opportunities and social benefits. Understanding these policies can help individuals make informed financial decisions.`,

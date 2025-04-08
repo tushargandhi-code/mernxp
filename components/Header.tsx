@@ -26,10 +26,10 @@ const Header = () => {
 
         {/* Desktop Nav (unchanged, visible lg and up) */}
         <div className="hidden lg:mx-auto lg:flex items-center ml-auto space-x-6 text-base">
-          <Link href="/politics" className="hover:text-orange-500">POLITICS</Link>
-          <Link href="/money" className="hover:text-orange-500">MONEY</Link>
-          <Link href="/usnews" className="hover:text-orange-500">US-NEWS</Link>
-          <Link href="/local" className="hover:text-orange-500">LOCAL</Link>
+          <Link href="/etfs" className="hover:text-orange-500">ETFS</Link>
+          <Link href="/finance" className="hover:text-orange-500">FINANCE</Link>
+          <Link href="/stock" className="hover:text-orange-500">STOCK</Link>
+          <Link href="/trading" className="hover:text-orange-500">TRADING</Link>
         </div>
       </div>
 
@@ -37,11 +37,11 @@ const Header = () => {
       {menuOpen && (
         <div className="lg:hidden px-5 pb-4 space-y-4 bg-black shadow-md">
           <nav>
-            <ul className="flex flex-col items-center space-y-2 text-base">
-              <li><Link href="/politics" onClick={handleCloseMenu} className="hover:text-orange-500">POLITICS</Link></li>
-              <li><Link href="/money" onClick={handleCloseMenu} className="hover:text-orange-500">MONEY</Link></li>
-              <li><Link href="/usnews" onClick={handleCloseMenu} className="hover:text-orange-500">US-NEWS</Link></li>
-              <li><Link href="/local" onClick={handleCloseMenu} className="hover:text-orange-500">LOCAL</Link></li>
+            <ul className="flex flex-col items-center space-y-5 text-base">
+              <li><Link href="/etfs" onClick={handleCloseMenu} className="hover:text-orange-500">ETFS</Link></li>
+              <li><Link href="/finance" onClick={handleCloseMenu} className="hover:text-orange-500">FINANCE</Link></li>
+              <li><Link href="/stock" onClick={handleCloseMenu} className="hover:text-orange-500">STOCK</Link></li>
+              <li><Link href="/trading" onClick={handleCloseMenu} className="hover:text-orange-500">TRADING</Link></li>
             </ul>
           </nav>
         </div>

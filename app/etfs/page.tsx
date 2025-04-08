@@ -7,9 +7,10 @@ import Image from 'next/image';
 import CreationDate from '@/components/Date';
 import politics from '@/constants/politics';
 import Link from 'next/link';
+import Breadcrumb from '@/components/Breadcrumb';
 
 const Politics = () => {
-  const [visiblePosts, setVisiblePosts] = useState(8); // Number of posts shown initially
+  const [visiblePosts, setVisiblePosts] = useState(12); // Number of posts shown initially
 
   const loadMore = () => {
     setVisiblePosts((prev) => prev + 4); // Show 4 more on each click
@@ -18,9 +19,14 @@ const Politics = () => {
   return (
     <>
       <div className='bg-gray-200'>
+
         <div className='mt-20 pt-8 text-black text-center  flex flex-col justify-center'>
+
+        <div className="max-w-7xl text-black  px-42">
+       <Breadcrumb />
+        </div>
           <p className='text-2xl max-w-6xl hidden lg:block text-left mx-auto mt-2'>
-            When we hear the term politics, we usually think of the government, politicians and political parties. For a country to have an organized government and work as per specific guidelines, we require a certain organization. This is where politics comes in, as it essentially forms the government. Every country, group and organization use politics to instrument various ways to organize their events, prospects and more.
+            When we hear the term ETFS, we usually think of the government, politicians and political parties. For a country to have an organized government and work as per specific guidelines, we require a certain organization. This is where politics comes in, as it essentially forms the government. Every country, group and organization use politics to instrument various ways to organize their events, prospects and more.
           </p>
 
           <div className="max-w-7xl mx-auto text-left lg:p-4">

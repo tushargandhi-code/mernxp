@@ -7,9 +7,10 @@ import CreationDate from '@/components/Date'
 import entertainment from '@/constants/entertainment'
 import Link from 'next/link'
 import Image from 'next/image'
+import Breadcrumb from '@/components/Breadcrumb';
 
 const Entertainment = () => {
-  const [visiblePosts, setVisiblePosts] = useState(8) // Show 4 initially
+  const [visiblePosts, setVisiblePosts] = useState(12) // Show 4 initially
 
   const loadMore = () => {
     setVisiblePosts((prev) => prev + 4) // Load 4 more each time
@@ -19,8 +20,11 @@ const Entertainment = () => {
     <>
       <div className='bg-gray-200'>
         <div className='mt-20 pt-8 text-black text-center  flex flex-col justify-center'>
+        <div className="max-w-7xl text-black  px-42">
+       <Breadcrumb />
+        </div>
           <p className='text-2xl max-w-6xl hidden lg:block text-left mx-auto mt-2'>
-            Local is an ever-evolving expression of style, blending tradition with modern influences. 
+            Trading is an ever-evolving expression of style, blending tradition with modern influences. 
             In 2025, sustainable fashion takes center stage, with eco-friendly materials and ethical production practices 
             becoming essential in the industry. Vibrant colors, oversized silhouettes, and vintage revivals are making a comeback, 
             redefining how we approach everyday wear.

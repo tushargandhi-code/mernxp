@@ -10,7 +10,7 @@ interface PostProps {
 }
 
 const Posts: React.FC<PostProps> = ({ pimg, pheading , articleNumber}) => {
-  // Get current date and subtract 2 days
+ 
   
   return (
     <div className="w-full   md:w-1/2 xl:w-1/4 flex justify-center md:justify-around items-center px-0 sm:px-0 md:px-4 py-2">

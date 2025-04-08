@@ -5,7 +5,7 @@
       title: `The Basics of Passive Income: How to Make Money Work for You`,
       imgUrl: `1116.jpg`,
       authorName: `Anita Singh`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Passive income is a powerful financial strategy that allows you to earn money with little ongoing effort. Unlike active income, where you exchange time for money, passive income continues to flow even when you’re not actively working. Whether you’re looking to supplement your current income or build a full-fledged passive income stream, understanding the basics is key. In this article, we’ll explore what passive income is, why it’s beneficial, and how you can start creating your own streams of passive income.`,
@@ -82,7 +82,7 @@
       title: `Financial Mistakes to Avoid in Your 20s, 30s, and 40s`,
       imgUrl: `1117.jpg`,
       authorName: `James Carter`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Managing your finances wisely is crucial at every stage of life. Each decade comes with unique financial challenges, and making the wrong moves can impact your future. In this article, we’ll explore common financial mistakes to avoid in your 20s, 30s, and 40s to set yourself up for financial success.`,
@@ -139,7 +139,7 @@
       title: `How to Set and Achieve Financial Goals Effectively`,
       imgUrl: `1118.jpg`,
       authorName: `Rahul Sharma`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Setting financial goals is a crucial part of managing your money and securing a stable financial future. Whether you're saving for retirement, purchasing a home, or building an emergency fund, clear financial goals provide direction and purpose. This article explores how to set and achieve financial goals effectively.`,
@@ -213,7 +213,7 @@
       title: `Understanding and Managing Risk in Your Investment Portfolio`,
       imgUrl: `1119.jpg`,
       authorName: `Samantha Lee`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Investing always involves some level of risk, but understanding and managing that risk is essential to building a successful investment portfolio. This article explores the different types of risk you might face in your investments and provides strategies for managing them effectively.`,
@@ -303,7 +303,7 @@
       title: `Estate Planning: Securing Your Assets for the Next Generation`,
       imgUrl: `1120.jpg`,
       authorName: `Anita Singh`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Estate planning is a crucial step in securing your assets for the next generation. It involves creating a comprehensive strategy for how your assets will be distributed after your death and ensuring that your loved ones are taken care of. This article explains the importance of estate planning and outlines the key components that make up a solid plan.`,
@@ -391,7 +391,7 @@
       title: `How to Create Multiple Streams of Income`,
       imgUrl: `1121.jpg`,
       authorName: `James Carter`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Creating multiple streams of income is a powerful way to secure your financial future. By diversifying your income sources, you can reduce reliance on a single paycheck and create financial stability. In this article, we’ll explore effective strategies for building multiple streams of income and how you can start today.`,
@@ -483,7 +483,7 @@
       title: `Smart Ways to Save for Your Child’s Education`,
       imgUrl: `1122.jpg`,
       authorName: `Rahul Sharma`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Saving for your child’s education is one of the most important financial goals you can set. With rising tuition costs, planning early can help reduce financial stress later. In this article, we’ll explore smart strategies to help you save for your child’s education, ensuring that you’re prepared for the costs ahead.`,
@@ -572,7 +572,7 @@
       title: `The Pros and Cons of Investing in Gold and Precious Metals`,
       imgUrl: `1123.jpg`,
       authorName: `Anita Singh`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Investing in gold and precious metals has long been considered a safe haven, especially during periods of economic uncertainty. Precious metals such as gold, silver, platinum, and palladium have a history of retaining their value and even appreciating during times of market volatility. However, like any investment, they come with their own set of pros and cons. In this article, we’ll explore the advantages and disadvantages of investing in gold and other precious metals.`,
@@ -634,7 +634,7 @@
       title: `The Pros and Cons of Investing in Gold and Precious Metals`,
       imgUrl: `1123.jpg`,
       authorName: `Samantha Lee`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Investing in gold and precious metals has long been considered a safe haven, especially during periods of economic uncertainty. Precious metals such as gold, silver, platinum, and palladium have a history of retaining their value and even appreciating during times of market volatility. However, like any investment, they come with their own set of pros and cons. In this article, we’ll explore the advantages and disadvantages of investing in gold and other precious metals.`,
@@ -694,7 +694,7 @@
       title: `How Economic Trends Affect Personal Finances and Investments`,
       imgUrl: `1124.jpg`,
       authorName: `James Carter`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
           `Economic trends play a crucial role in shaping personal finances and investments. Whether it's the state of the economy, inflation rates, or interest rates, economic trends influence how individuals manage their money, invest in stocks, bonds, and real estate, and plan for retirement. Understanding these trends is vital to making informed financial decisions. In this article, we’ll explore how various economic trends impact personal finances and investments.`,
@@ -761,7 +761,7 @@
       title: `Best Day Trading Strategies for the U.S. Stock Market`,
       imgUrl: `moneymorning16.jpg`,  
       authorName: `Samantha Lee`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Day trading in the U.S. stock market requires strategy, discipline, and a solid understanding of market trends. Successful traders rely on effective techniques to maximize profits while managing risks in a fast-paced environment.`,
@@ -803,7 +803,7 @@
       title: `Swing Trading vs. Scalping: Which Strategy Works Best?`,
       imgUrl: `moneymorning17.jpg`,  
       authorName: `Anita Singh`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Choosing between swing trading and scalping depends on an investor's risk tolerance, time commitment, and trading style. Each strategy has its advantages and challenges, making it essential to understand how they work before deciding which suits you best.`,
@@ -844,7 +844,7 @@
       title: `Options Trading in the USA: A Beginner’s Guide`,
       imgUrl: `moneymorning18.jpg`,  
       authorName: `Rajat Sen`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Options trading in the USA provides investors with the flexibility to hedge risk, generate income, or speculate on price movements. Understanding the basics of options can help beginners make informed trading decisions.`,
@@ -886,7 +886,7 @@
       title: `How to Use Technical Analysis for Profitable Trades`,
       imgUrl: `moneymorning19.jpg`,  
       authorName: `James Carter`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Technical analysis is a powerful tool for traders looking to identify profitable opportunities in the stock market. By analyzing price movements and patterns, traders can make informed decisions based on historical data.`,
@@ -933,7 +933,7 @@
       title: `Risk Management Strategies for U.S. Traders`,
       imgUrl: `moneymorning20.jpg`,  
       authorName: `Rahul Sharma`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Risk management is crucial for traders aiming to protect their capital and achieve long-term success in the U.S. financial markets. Implementing proper risk management strategies helps mitigate losses and maximize profits effectively.`,
@@ -971,7 +971,7 @@
       title: `Best Trading Strategies for Beginners in the U.S. Stock Market`,
       imgUrl: `moneymorning51.jpg`,  
       authorName: `Anita Singh`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Navigating the stock market as a beginner can be overwhelming, but with the right strategies, new investors can build confidence and success over time.`,
@@ -1012,7 +1012,7 @@
       title: `How to Profit from Market Volatility: A Trader’s Guide`,
       imgUrl: `moneymorning52.jpg`,  
       authorName: `Samantha Lee`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Market volatility can create both risks and opportunities for traders. Understanding how to navigate price swings effectively can lead to profitable trades and long-term success.`,
@@ -1053,7 +1053,7 @@
       title: `The Role of Technical Indicators in Successful Trading`,
       imgUrl: `moneymorning53.jpg`,  
       authorName: `Rajat Sen`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Technical indicators play a crucial role in helping traders analyze market trends, identify opportunities, and make informed trading decisions. By leveraging these tools, traders can improve their chances of success in the financial markets.`,
@@ -1090,7 +1090,7 @@
       title: `Momentum Trading: How to Ride Trends for Maximum Gains`,
       imgUrl: `moneymorning54.jpg`,  
       authorName: `James Carter`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Momentum trading is a strategy that focuses on capitalizing on strong price trends. Traders use this approach to ride market movements and maximize gains by entering positions that align with prevailing momentum.`,
@@ -1127,7 +1127,7 @@
       title: `Swing Trading Strategies That Work in the U.S. Market`,
       imgUrl: `moneymorning55.jpg`,  
       authorName: `Anita Singh`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Swing trading is a strategy that focuses on capturing short- to medium-term price movements within a trend. Traders use this approach to profit from price fluctuations by holding positions for days or weeks rather than minutes or hours.`,
@@ -1171,7 +1171,7 @@
       title: `Options Trading Strategies: Calls, Puts, and Spreads Explained`,
       imgUrl: `moneymorning56.jpg`,  
       authorName: `Rahul Sharma`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Options trading is a powerful financial tool that allows traders to speculate on asset price movements, hedge risk, and enhance portfolio returns. Understanding how calls, puts, and spreads work is essential for success in the options market.`,
@@ -1211,7 +1211,7 @@
       title: `How to Use Fibonacci Retracements in Trading Journey`,
       imgUrl: `moneymorning57.jpg`,  
       authorName: `James Carter`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Fibonacci retracements are a popular technical analysis tool used by traders to identify potential support and resistance levels in the market. Understanding how to apply Fibonacci levels can enhance trading strategies and improve decision-making.`,
@@ -1258,7 +1258,7 @@
       title: `The Psychology of Trading: How to Manage Emotions and Stay`,
       imgUrl: `moneymorning58.jpg`,  
       authorName: `Rajat Sen`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Emotions play a significant role in trading, often leading to impulsive decisions and costly mistakes. Understanding the psychology behind trading can help investors stay disciplined and make rational choices.`,
@@ -1296,7 +1296,7 @@
       title: `Algorithmic Trading: How AI Is Changing the Stock Market`,
       imgUrl: `moneymorning59.jpg`,  
       authorName: `Samantha Lee`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Algorithmic trading, also known as algo trading, leverages AI and machine learning to execute trades with high speed and precision. This technology is reshaping the financial markets by minimizing human error and maximizing efficiency.`,
@@ -1334,7 +1334,7 @@
       title: `Pre-Market and After-Hours Trading: Opportunities and Risks`,
       imgUrl: `moneymorning60.jpg`,  
       authorName: `Anita Singh`,
-      section:"local",
+      section:"trading",
       readTime: `${Math.floor(Math.random() * (5 - 3 + 1)) + 3} min read`,
       contents: [
         `Pre-market and after-hours trading extend beyond standard market hours, offering traders additional opportunities. However, these sessions come with unique risks and challenges that investors should understand.`,

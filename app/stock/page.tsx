@@ -7,9 +7,10 @@ import Blogs from '../../components/Blogs';
 import CreationDate from '@/components/Date';
 import Link from 'next/link';
 import usNews from '@/constants/usnews';
+import Breadcrumb from '@/components/Breadcrumb';
 
 const Usnews = () => {
-  const [visiblePosts, setVisiblePosts] = useState(8); // Show 4 initially
+  const [visiblePosts, setVisiblePosts] = useState(12); // Show 4 initially
 
   const loadMore = () => {
     setVisiblePosts((prev) => prev + 4); // Load 4 more each click
@@ -19,8 +20,11 @@ const Usnews = () => {
     <>
       <div className='bg-gray-200'>
         <div className='mt-20 pt-8 text-black text-center  flex flex-col justify-center'>
+        <div className="max-w-7xl text-black  px-42">
+       <Breadcrumb />
+        </div>
           <p className='text-2xl max-w-6xl text-left hidden lg:block mx-auto mt-2'>
-            U.S. News & World Report is a multifaceted digital media company dedicated to helping consumers, business leaders and policy officials make important decisions in their lives. We use world-class data and technology to publish independent reporting, rankings, journalism and advice that has earned the trust of our readers and users for more than 90 years.
+            STOCK & World Report is a multifaceted digital media company dedicated to helping consumers, business leaders and policy officials make important decisions in their lives. We use world-class data and technology to publish independent reporting, rankings, journalism and advice that has earned the trust of our readers and users for more than 90 years.
           </p>
 
           <div className="max-w-7xl text-left mx-auto lg:p-4">
