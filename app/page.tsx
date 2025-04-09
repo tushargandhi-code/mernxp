@@ -21,7 +21,7 @@ const page = () => {
       
    
 
-      <p className='text-white tracking-widest mt-20 text-center p-2 bg-sky-400'>INDIAS LARGEST MENS LIFESTYLE DESTINATION</p>
+      <p className='text-white tracking-widest mt-20 text-center uppercase p-2 bg-sky-400'>Building Stronger Financial Foundations.</p>
 
 <main >
    
