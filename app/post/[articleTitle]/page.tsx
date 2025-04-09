@@ -4,7 +4,7 @@ import Posts from "@/components/Posts";
 import Link from "next/link";
 import allArticles from "@/constants/all";
 import CreationDate from "@/components/Date";
-// import Breadcrumb from '@/components/Breadcrumb';
+ import Breadcrumb from '@/components/Breadcrumb';
 
 const formatTitle = (title: string) => title.replace(/[^A-Za-z0-9]+/g, "-");
 
@@ -31,9 +31,9 @@ const PostPage = async ({
     <>
       <div className="bg-gray-200">
         <div className="text-black mt-20 bg-gray-200 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 py-6">
-        {/* <div className="max-w-7xl text-black  px-42">
+        <div className="max-w-7xl text-black mb-4 sm:px-0  lg:px-38">
        <Breadcrumb />
-        </div> */}
+        </div>
           <h1 className="text-3xl lg:mx-40 sm:text-4xl lg:text-5xl font-bold mb-6">
             {article.title}
           </h1>
@@ -42,31 +42,33 @@ const PostPage = async ({
             className="flex flex-col lg:mx-40 sm:flex-row items-start sm:items-center gap-3 sm:gap-6 p-4 bg-gray-200 rounded-lg
             mb-6"
           >
-            <div className="text-gray-800 w-full flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
-  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
+        <div className="text-gray-800 w-full flex flex-col lg:flex-row items-start lg:items-center justify-between gap-3">
+    {/* Author Info */}
     <div className="flex items-center gap-2">
       <Image
         src={`/authors/${article.authorName}.jpg`}
-        alt=""
+        alt={article.authorName}
         width={50}
         height={50}
         className="rounded-full object-cover object-center size-12"
       />
-      <p className="text-lg sm:text-xl font-semibold">
+      <p className="text-lg lg:text-xl font-semibold">
         {article.authorName}
       </p>
     </div>
-    <p className="text-sm sm:text-base text-gray-500 ml-14 sm:ml-0">
-      <CreationDate articleNumber={article.articleNumber} />
-    </p>
+
+    {/* Date + Read Time block */}
+    <div className="w-full flex justify-between items-center lg:pl-0 lg:w-auto lg:justify-start gap-4 text-sm lg:text-base text-gray-500">
+
+      <p>
+        <CreationDate articleNumber={article.articleNumber} />
+      </p>
+      <p>
+        Read Time: {article.readTime}
+      </p>
+    </div>
   </div>
 
-  <div className="  flex ml-14 lg:ml-0 justify-end ">
-    <p className="text-sm sm:text-md ml-auto text-gray-500">
-      Read Time: {article.readTime}
-    </p>
-  </div>
-</div>
 
           </div>
 

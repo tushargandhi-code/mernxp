@@ -10,10 +10,9 @@ import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 
 const Politics = () => {
-  const [visiblePosts, setVisiblePosts] = useState(12); // Number of posts shown initially
-
+  const [visiblePosts, setVisiblePosts] = useState(12); 
   const loadMore = () => {
-    setVisiblePosts((prev) => prev + 4); // Show 4 more on each click
+    setVisiblePosts((prev) => prev + 4); 
   };
 
   return (
@@ -22,7 +21,7 @@ const Politics = () => {
 
         <div className='mt-20 pt-8 text-black text-center  flex flex-col justify-center'>
 
-        <div className="max-w-7xl text-black  px-42">
+        <div className="max-w-7xl text-black lg:px-40 ">
        <Breadcrumb />
         </div>
           <p className='text-2xl max-w-6xl hidden lg:block text-left mx-auto mt-2'>

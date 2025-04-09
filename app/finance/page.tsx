@@ -21,7 +21,7 @@ const Money = () => {
       <div className='bg-gray-200'>
         <div className='mt-20 pt-8 text-black text-center  flex flex-col justify-center'>
 
-        <div className="max-w-7xl text-black  px-42">
+        <div className="max-w-7xl text-black lg:px-40">
        <Breadcrumb />
         </div>
           <p className='text-2xl max-w-6xl text-left hidden lg:block mx-auto mt-2'>

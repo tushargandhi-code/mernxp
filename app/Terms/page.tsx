@@ -34,7 +34,7 @@ const Terms = () => {
       <p className="mb-4">We reserve the right to update these terms at any time. Continued use of the site constitutes acceptance of the new terms.</p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">8. Contact Us</h2>
-      <p className="mb-4">If you have any questions about these terms, please contact us at support@usnewsinsider.com.</p>
+      <p className="mb-4">If you have any questions about these terms, please contact us at contact@usnewsinsider.com.</p>
     </div>
 
 <Footer/>
