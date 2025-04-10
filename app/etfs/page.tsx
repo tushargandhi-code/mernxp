@@ -9,6 +9,12 @@ import politics from '@/constants/politics';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 
+import { Metadata } from "next";
+
+export const metadata : Metadata = {
+    title: "ETFS",
+}
+
 const Politics = () => {
   const [visiblePosts, setVisiblePosts] = useState(12); 
   const loadMore = () => {
