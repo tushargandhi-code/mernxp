@@ -34,7 +34,7 @@ const PostPage = async ({
         <div className="max-w-7xl text-black mb-4 sm:px-0  lg:px-38">
        <Breadcrumb />
         </div>
-          <h1 className="text-3xl lg:mx-40 sm:text-4xl lg:text-5xl font-bold mb-6">
+          <h1 className="text-3xl lg:mx-40  sm:text-4xl lg:text-5xl font-bold mb-6">
             {article.title}
           </h1>
 
