@@ -17,7 +17,7 @@ const Entertainment = () => {
   const [visiblePosts, setVisiblePosts] = useState(12) // Show 4 initially
 
   const loadMore = () => {
-    setVisiblePosts((prev) => prev + 4) // Load 4 more each time
+    setVisiblePosts((prev) => prev + 12) // Load 4 more each time
   }
 
   return (

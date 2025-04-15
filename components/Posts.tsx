@@ -13,7 +13,7 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading , articleNumber}) => {
  
   
   return (
-    <div className="w-full   md:w-1/2 xl:w-1/4 flex justify-center md:justify-around items-center px-0 sm:px-0 md:px-4 py-2">
+    <div className="w-full    xl:w-1/4 flex justify-center md:justify-around items-center px-0 sm:px-0  py-2">
       
         <div className="bg-white p-2 lg:p-3 sm:p-3 md:p-4 rounded-md w-full md:w-auto">
           <Image
